@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,11 +17,56 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="minute" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKk-K0-UFG">
+                                <rect key="frame" x="254" y="20" width="106" height="43"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="36"/>
+                                <color key="textColor" red="0.86873477697372437" green="0.7997170090675354" blue="0.50940203666687012" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TUTOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sb2-D3-2zO">
+                                <rect key="frame" x="231" y="44" width="152" height="62"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="41"/>
+                                <color key="textColor" red="0.86457294225692749" green="0.75438076257705688" blue="0.26644939184188843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xoB-ce-yWw" customClass="GIDSignInButton">
+                                <rect key="frame" x="62" y="126" width="477" height="54"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u4l-DU-gzO">
+                                <rect key="frame" x="62" y="103" width="477" height="3"/>
+                                <color key="backgroundColor" red="0.78157657384872437" green="0.75513154268264771" blue="0.50749260187149048" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UR6-64-at1">
+                                <rect key="frame" x="35" y="348" width="57" height="30"/>
+                                <state key="normal" title="Sign out"/>
+                                <connections>
+                                    <action selector="didTapSignOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sWj-wr-fRq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99498718976974487" blue="0.92059743404388428" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sb2-D3-2zO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-225" id="2rm-SQ-2BX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="u4l-DU-gzO" secondAttribute="trailing" constant="41" id="39T-zc-bIt"/>
+                            <constraint firstItem="Sb2-D3-2zO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="7" id="Fnt-wI-h2X"/>
+                            <constraint firstItem="xoB-ce-yWw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="42" id="L4x-Ry-fUG"/>
+                            <constraint firstItem="nKk-K0-UFG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="7" id="bYn-le-6yQ"/>
+                            <constraint firstItem="nKk-K0-UFG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-258.5" id="dGs-r9-MCl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xoB-ce-yWw" secondAttribute="trailing" constant="41" id="dOf-BF-0E2"/>
+                            <constraint firstItem="xoB-ce-yWw" firstAttribute="top" secondItem="u4l-DU-gzO" secondAttribute="bottom" constant="20" id="omP-td-d8v"/>
+                            <constraint firstItem="u4l-DU-gzO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="42" id="tMP-KB-0qY"/>
+                            <constraint firstItem="u4l-DU-gzO" firstAttribute="top" secondItem="nKk-K0-UFG" secondAttribute="bottom" constant="40" id="vhS-ua-Ps8"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="signInButton" destination="xoB-ce-yWw" id="IOS-Ra-dJo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="325" y="400"/>
         </scene>
     </scenes>
 </document>

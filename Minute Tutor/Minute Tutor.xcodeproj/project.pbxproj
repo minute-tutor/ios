@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AB69043F71BA194BD45D961 /* libPods-Minute Tutor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A478B6FE0000A73780C0346 /* libPods-Minute Tutor.a */; };
+		36EFB51BB914A340D8C93555 /* libPods-Minute TutorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCCF3F731071E8978E11F51 /* libPods-Minute TutorTests.a */; };
+		782B84F7A5FEE3486BB60ECC /* libPods-Minute TutorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4760AB5944DF306B3475827 /* libPods-Minute TutorUITests.a */; };
+		A2C1350A1D0C9ECD004045F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */; };
 		A2D342421D0C8CA400F03DE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D342411D0C8CA400F03DE8 /* main.m */; };
 		A2D342451D0C8CA400F03DE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D342441D0C8CA400F03DE8 /* AppDelegate.m */; };
 		A2D342481D0C8CA400F03DE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D342471D0C8CA400F03DE8 /* ViewController.m */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FCCF3F731071E8978E11F51 /* libPods-Minute TutorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Minute TutorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A478B6FE0000A73780C0346 /* libPods-Minute Tutor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Minute Tutor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EEF57C7E7C2549DF737061 /* Pods-Minute Tutor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minute Tutor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Minute Tutor/Pods-Minute Tutor.release.xcconfig"; sourceTree = "<group>"; };
+		A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A2D3423D1D0C8CA400F03DE8 /* Minute Tutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minute Tutor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D342411D0C8CA400F03DE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2D342431D0C8CA400F03DE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +61,12 @@
 		A2D342641D0C8CA400F03DE8 /* Minute TutorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minute TutorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D342681D0C8CA400F03DE8 /* Minute_TutorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Minute_TutorUITests.m; sourceTree = "<group>"; };
 		A2D3426A1D0C8CA400F03DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4760AB5944DF306B3475827 /* libPods-Minute TutorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Minute TutorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D745930F093ACDE670A005 /* Pods-Minute TutorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minute TutorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Minute TutorUITests/Pods-Minute TutorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6E3F773AE16405293AF7522 /* Pods-Minute TutorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minute TutorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Minute TutorTests/Pods-Minute TutorTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAA821D75706CABC3E6E3AC3 /* Pods-Minute TutorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minute TutorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Minute TutorTests/Pods-Minute TutorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBFAFF4C843D59EA6B0602F9 /* Pods-Minute TutorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minute TutorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Minute TutorUITests/Pods-Minute TutorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F85E3AEA06DC2BDD55E57B8F /* Pods-Minute Tutor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minute Tutor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Minute Tutor/Pods-Minute Tutor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB69043F71BA194BD45D961 /* libPods-Minute Tutor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36EFB51BB914A340D8C93555 /* libPods-Minute TutorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782B84F7A5FEE3486BB60ECC /* libPods-Minute TutorUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +100,13 @@
 		A2D342341D0C8CA400F03DE8 = {
 			isa = PBXGroup;
 			children = (
+				A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */,
 				A2D3423F1D0C8CA400F03DE8 /* Minute Tutor */,
 				A2D3425C1D0C8CA400F03DE8 /* Minute TutorTests */,
 				A2D342671D0C8CA400F03DE8 /* Minute TutorUITests */,
 				A2D3423E1D0C8CA400F03DE8 /* Products */,
+				ED44BEBB4E337AB263A0F157 /* Pods */,
+				A4CD5F2F8136972BE6D3514A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +163,29 @@
 			path = "Minute TutorUITests";
 			sourceTree = "<group>";
 		};
+		A4CD5F2F8136972BE6D3514A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A478B6FE0000A73780C0346 /* libPods-Minute Tutor.a */,
+				0FCCF3F731071E8978E11F51 /* libPods-Minute TutorTests.a */,
+				A4760AB5944DF306B3475827 /* libPods-Minute TutorUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED44BEBB4E337AB263A0F157 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F85E3AEA06DC2BDD55E57B8F /* Pods-Minute Tutor.debug.xcconfig */,
+				99EEF57C7E7C2549DF737061 /* Pods-Minute Tutor.release.xcconfig */,
+				DAA821D75706CABC3E6E3AC3 /* Pods-Minute TutorTests.debug.xcconfig */,
+				B6E3F773AE16405293AF7522 /* Pods-Minute TutorTests.release.xcconfig */,
+				B2D745930F093ACDE670A005 /* Pods-Minute TutorUITests.debug.xcconfig */,
+				EBFAFF4C843D59EA6B0602F9 /* Pods-Minute TutorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2D3426D1D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "Minute Tutor" */;
 			buildPhases = (
+				48060BAAF2089E82C110D0C3 /* 📦 Check Pods Manifest.lock */,
 				A2D342391D0C8CA400F03DE8 /* Sources */,
 				A2D3423A1D0C8CA400F03DE8 /* Frameworks */,
 				A2D3423B1D0C8CA400F03DE8 /* Resources */,
+				73DCC985CD0F1CC6ED5DE9E1 /* 📦 Embed Pods Frameworks */,
+				AA719EC365A4B07FFE366DCA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2D342701D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "Minute TutorTests" */;
 			buildPhases = (
+				EDF8E0B556F50EE02B384DA5 /* 📦 Check Pods Manifest.lock */,
 				A2D342551D0C8CA400F03DE8 /* Sources */,
 				A2D342561D0C8CA400F03DE8 /* Frameworks */,
 				A2D342571D0C8CA400F03DE8 /* Resources */,
+				3BD8347F919935083B781B26 /* 📦 Embed Pods Frameworks */,
+				AB71103310D866FCED0FDFCF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2D342731D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "Minute TutorUITests" */;
 			buildPhases = (
+				CE022846AFA93A0692DAC87E /* 📦 Check Pods Manifest.lock */,
 				A2D342601D0C8CA400F03DE8 /* Sources */,
 				A2D342611D0C8CA400F03DE8 /* Frameworks */,
 				A2D342621D0C8CA400F03DE8 /* Resources */,
+				351E3395586E32CD4C744EE5 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D342531D0C8CA400F03DE8 /* LaunchScreen.storyboard in Resources */,
+				A2C1350A1D0C9ECD004045F1 /* GoogleService-Info.plist in Resources */,
 				A2D342501D0C8CA400F03DE8 /* Assets.xcassets in Resources */,
 				A2D3424B1D0C8CA400F03DE8 /* Main.storyboard in Resources */,
 			);
@@ -267,6 +319,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		351E3395586E32CD4C744EE5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Minute TutorUITests/Pods-Minute TutorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BD8347F919935083B781B26 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Minute TutorTests/Pods-Minute TutorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48060BAAF2089E82C110D0C3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73DCC985CD0F1CC6ED5DE9E1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Minute Tutor/Pods-Minute Tutor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA719EC365A4B07FFE366DCA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Minute Tutor/Pods-Minute Tutor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB71103310D866FCED0FDFCF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Minute TutorTests/Pods-Minute TutorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE022846AFA93A0692DAC87E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDF8E0B556F50EE02B384DA5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2D342391D0C8CA400F03DE8 /* Sources */ = {
@@ -415,28 +590,31 @@
 		};
 		A2D3426E1D0C8CA400F03DE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85E3AEA06DC2BDD55E57B8F /* Pods-Minute Tutor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Minute Tutor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Mango-Apps.Minute-Tutor";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mango-Apps.Minute-Tutor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		A2D3426F1D0C8CA400F03DE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99EEF57C7E7C2549DF737061 /* Pods-Minute Tutor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Minute Tutor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Mango-Apps.Minute-Tutor";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mango-Apps.Minute-Tutor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		A2D342711D0C8CA400F03DE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA821D75706CABC3E6E3AC3 /* Pods-Minute TutorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Minute TutorTests/Info.plist";
@@ -449,6 +627,7 @@
 		};
 		A2D342721D0C8CA400F03DE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E3F773AE16405293AF7522 /* Pods-Minute TutorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Minute TutorTests/Info.plist";
@@ -461,6 +640,7 @@
 		};
 		A2D342741D0C8CA400F03DE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D745930F093ACDE670A005 /* Pods-Minute TutorUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Minute TutorUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -472,6 +652,7 @@
 		};
 		A2D342751D0C8CA400F03DE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFAFF4C843D59EA6B0602F9 /* Pods-Minute TutorUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Minute TutorUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -500,6 +681,7 @@
 				A2D3426F1D0C8CA400F03DE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2D342701D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "Minute TutorTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +690,7 @@
 				A2D342721D0C8CA400F03DE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2D342731D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "Minute TutorUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +699,7 @@
 				A2D342751D0C8CA400F03DE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
