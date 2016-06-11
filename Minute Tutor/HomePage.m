@@ -1,26 +1,30 @@
 //
-//  ViewController.m
+//  HomePage.m
 //  Minute Tutor
 //
 //  Created by Paran Sonthalia on 6/11/16.
 //  Copyright © 2016 Mango Apps. All rights reserved.
 //
 
-#import "ViewController.h"
 #import "HomePage.h"
 
-@interface ViewController ()
+@interface HomePage ()
 
 @end
 
-@implementation ViewController
-
+@implementation HomePage
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    
-//    HomePage *viewController = [[HomePage alloc] init];
-//    [self presentViewController:viewController animated:YES completion:nil];
+    
+    // TODO(developer) Configure the sign-in button look/feel
+    
+    [GIDSignIn sharedInstance].uiDelegate = self;
+    
+    // Uncomment to automatically sign in the user.
+    //[[GIDSignIn sharedInstance] signInSilently];
+    
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {

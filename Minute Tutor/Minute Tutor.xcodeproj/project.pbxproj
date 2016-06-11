@@ -10,7 +10,13 @@
 		0AB69043F71BA194BD45D961 /* libPods-Minute Tutor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A478B6FE0000A73780C0346 /* libPods-Minute Tutor.a */; };
 		36EFB51BB914A340D8C93555 /* libPods-Minute TutorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCCF3F731071E8978E11F51 /* libPods-Minute TutorTests.a */; };
 		782B84F7A5FEE3486BB60ECC /* libPods-Minute TutorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4760AB5944DF306B3475827 /* libPods-Minute TutorUITests.a */; };
+		A25CA13F1D0CD36D003B25AA /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA13D1D0CD36D003B25AA /* face.png */; };
+		A25CA1401D0CD36D003B25AA /* home2.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA13E1D0CD36D003B25AA /* home2.png */; };
+		A25CA1431D0CD76B003B25AA /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA1411D0CD76B003B25AA /* book.png */; };
+		A25CA1441D0CD76B003B25AA /* hat.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA1421D0CD76B003B25AA /* hat.png */; };
 		A2C1350A1D0C9ECD004045F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */; };
+		A2C135111D0CBC5E004045F1 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C1350F1D0CBC5E004045F1 /* HomePage.m */; };
+		A2C135121D0CBC5E004045F1 /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C135101D0CBC5E004045F1 /* HomePage.xib */; };
 		A2D342421D0C8CA400F03DE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D342411D0C8CA400F03DE8 /* main.m */; };
 		A2D342451D0C8CA400F03DE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D342441D0C8CA400F03DE8 /* AppDelegate.m */; };
 		A2D342481D0C8CA400F03DE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D342471D0C8CA400F03DE8 /* ViewController.m */; };
@@ -43,7 +49,14 @@
 		0FCCF3F731071E8978E11F51 /* libPods-Minute TutorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Minute TutorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A478B6FE0000A73780C0346 /* libPods-Minute Tutor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Minute Tutor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EEF57C7E7C2549DF737061 /* Pods-Minute Tutor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minute Tutor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Minute Tutor/Pods-Minute Tutor.release.xcconfig"; sourceTree = "<group>"; };
+		A25CA13D1D0CD36D003B25AA /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		A25CA13E1D0CD36D003B25AA /* home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home2.png; sourceTree = "<group>"; };
+		A25CA1411D0CD76B003B25AA /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		A25CA1421D0CD76B003B25AA /* hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hat.png; sourceTree = "<group>"; };
 		A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A2C1350E1D0CBC5E004045F1 /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
+		A2C1350F1D0CBC5E004045F1 /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
+		A2C135101D0CBC5E004045F1 /* HomePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePage.xib; sourceTree = "<group>"; };
 		A2D3423D1D0C8CA400F03DE8 /* Minute Tutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minute Tutor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D342411D0C8CA400F03DE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2D342431D0C8CA400F03DE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +113,9 @@
 		A2D342341D0C8CA400F03DE8 = {
 			isa = PBXGroup;
 			children = (
+				A2C1350E1D0CBC5E004045F1 /* HomePage.h */,
+				A2C1350F1D0CBC5E004045F1 /* HomePage.m */,
+				A2C135101D0CBC5E004045F1 /* HomePage.xib */,
 				A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */,
 				A2D3423F1D0C8CA400F03DE8 /* Minute Tutor */,
 				A2D3425C1D0C8CA400F03DE8 /* Minute TutorTests */,
@@ -141,6 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				A2D342411D0C8CA400F03DE8 /* main.m */,
+				A25CA13D1D0CD36D003B25AA /* face.png */,
+				A25CA13E1D0CD36D003B25AA /* home2.png */,
+				A25CA1411D0CD76B003B25AA /* book.png */,
+				A25CA1421D0CD76B003B25AA /* hat.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -297,9 +317,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C135121D0CBC5E004045F1 /* HomePage.xib in Resources */,
 				A2D342531D0C8CA400F03DE8 /* LaunchScreen.storyboard in Resources */,
+				A25CA1401D0CD36D003B25AA /* home2.png in Resources */,
+				A25CA13F1D0CD36D003B25AA /* face.png in Resources */,
 				A2C1350A1D0C9ECD004045F1 /* GoogleService-Info.plist in Resources */,
 				A2D342501D0C8CA400F03DE8 /* Assets.xcassets in Resources */,
+				A25CA1441D0CD76B003B25AA /* hat.png in Resources */,
+				A25CA1431D0CD76B003B25AA /* book.png in Resources */,
 				A2D3424B1D0C8CA400F03DE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +475,7 @@
 			files = (
 				A2D3424E1D0C8CA400F03DE8 /* Minute_Tutor.xcdatamodeld in Sources */,
 				A2D342481D0C8CA400F03DE8 /* ViewController.m in Sources */,
+				A2C135111D0CBC5E004045F1 /* HomePage.m in Sources */,
 				A2D342451D0C8CA400F03DE8 /* AppDelegate.m in Sources */,
 				A2D342421D0C8CA400F03DE8 /* main.m in Sources */,
 			);
