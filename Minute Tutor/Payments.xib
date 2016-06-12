@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Payments">
@@ -13,7 +14,55 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtx-Lf-Hzj">
+                    <rect key="frame" x="238" y="20" width="126" height="39"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="33"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How long do you want to talk?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drZ-9N-owJ">
+                    <rect key="frame" x="194" y="84" width="230" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jri-OM-c7t">
+                    <rect key="frame" x="274" y="150" width="40" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="pEv-5u-NJt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGP-DK-IWa">
+                    <rect key="frame" x="161" y="277" width="279" height="42"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <state key="normal" title="Pay now and start talking"/>
+                    <connections>
+                        <action selector="call:" destination="-1" eventType="touchUpInside" id="sA3-ms-dul"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DrK-77-bK2">
+                    <rect key="frame" x="322" y="154" width="37" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.99498718976974487" blue="0.92059743404388428" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="drZ-9N-owJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="9" id="4A8-4V-1XA"/>
+                <constraint firstItem="drZ-9N-owJ" firstAttribute="top" secondItem="Xtx-Lf-Hzj" secondAttribute="bottom" constant="25" id="4eF-Yj-Tdb"/>
+                <constraint firstItem="Xtx-Lf-Hzj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="1" id="9ZO-HA-WAh"/>
+                <constraint firstItem="DrK-77-bK2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="154" id="C33-z3-xpj"/>
+                <constraint firstItem="hGP-DK-IWa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CC5-zU-SlY"/>
+                <constraint firstItem="hGP-DK-IWa" firstAttribute="top" secondItem="Jri-OM-c7t" secondAttribute="bottom" constant="97" id="DhP-tc-frG"/>
+                <constraint firstItem="DrK-77-bK2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="40.5" id="LIN-iM-1jW"/>
+                <constraint firstItem="Jri-OM-c7t" firstAttribute="centerY" secondItem="DrK-77-bK2" secondAttribute="centerY" id="Tex-zv-pPe"/>
+                <constraint firstItem="Xtx-Lf-Hzj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="aIU-4u-JAL"/>
+                <constraint firstItem="DrK-77-bK2" firstAttribute="leading" secondItem="Jri-OM-c7t" secondAttribute="trailing" constant="8" symbolic="YES" id="ypu-cr-0xl"/>
+            </constraints>
         </view>
     </objects>
 </document>

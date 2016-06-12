@@ -7,6 +7,7 @@
 //
 
 #import "tutorDescription.h"
+#import "Payments.h"
 
 @interface tutorDescription ()
 
@@ -25,7 +26,8 @@
 }
 
 - (IBAction)call:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"skype:davidsillman?call&video=true"]];
+    Payments *viewController = [[Payments alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 - (IBAction)back:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
