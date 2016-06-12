@@ -7,6 +7,7 @@
 //
 
 #import "Profile.h"
+#import "DataCollection.h"
 
 @interface Profile ()
 
@@ -43,4 +44,8 @@
     return cell;
 }
 
+- (IBAction)more:(id)sender {
+    DataCollection *viewController = [[DataCollection alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
 @end
