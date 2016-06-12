@@ -43,7 +43,7 @@
 		A25CA1A01D0D3224003B25AA /* DataCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = A25CA19E1D0D3224003B25AA /* DataCollection.xib */; };
 		A25CA1A41D0D42F6003B25AA /* SubSubjects.m in Sources */ = {isa = PBXBuildFile; fileRef = A25CA1A21D0D42F6003B25AA /* SubSubjects.m */; };
 		A25CA1A51D0D42F6003B25AA /* SubSubjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = A25CA1A31D0D42F6003B25AA /* SubSubjects.xib */; };
-		A2C1350A1D0C9ECD004045F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */; };
+		A25CA1AC1D0D67CB003B25AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A25CA1AB1D0D67CB003B25AA /* GoogleService-Info.plist */; };
 		A2C135111D0CBC5E004045F1 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C1350F1D0CBC5E004045F1 /* HomePage.m */; };
 		A2C135121D0CBC5E004045F1 /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C135101D0CBC5E004045F1 /* HomePage.xib */; };
 		A2D342421D0C8CA400F03DE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D342411D0C8CA400F03DE8 /* main.m */; };
@@ -122,7 +122,7 @@
 		A25CA1A11D0D42F6003B25AA /* SubSubjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSubjects.h; sourceTree = "<group>"; };
 		A25CA1A21D0D42F6003B25AA /* SubSubjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubSubjects.m; sourceTree = "<group>"; };
 		A25CA1A31D0D42F6003B25AA /* SubSubjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubSubjects.xib; sourceTree = "<group>"; };
-		A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A25CA1AB1D0D67CB003B25AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A2C1350E1D0CBC5E004045F1 /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
 		A2C1350F1D0CBC5E004045F1 /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
 		A2C135101D0CBC5E004045F1 /* HomePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePage.xib; sourceTree = "<group>"; };
@@ -216,7 +216,7 @@
 				A2C1350E1D0CBC5E004045F1 /* HomePage.h */,
 				A2C1350F1D0CBC5E004045F1 /* HomePage.m */,
 				A2C135101D0CBC5E004045F1 /* HomePage.xib */,
-				A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */,
+				A25CA1AB1D0D67CB003B25AA /* GoogleService-Info.plist */,
 				A2D3423F1D0C8CA400F03DE8 /* Minute Tutor */,
 				A2D3425C1D0C8CA400F03DE8 /* Minute TutorTests */,
 				A2D342671D0C8CA400F03DE8 /* Minute TutorUITests */,
@@ -437,9 +437,9 @@
 				A25CA1A01D0D3224003B25AA /* DataCollection.xib in Resources */,
 				A25CA1671D0CE1B1003B25AA /* literature.png in Resources */,
 				A25CA1931D0D02DB003B25AA /* myTutor.xib in Resources */,
+				A25CA1AC1D0D67CB003B25AA /* GoogleService-Info.plist in Resources */,
 				A25CA1401D0CD36D003B25AA /* home2.png in Resources */,
 				A25CA13F1D0CD36D003B25AA /* face.png in Resources */,
-				A2C1350A1D0C9ECD004045F1 /* GoogleService-Info.plist in Resources */,
 				A25CA1981D0D2B6B003B25AA /* profileFace.png in Resources */,
 				A25CA1641D0CE1B1003B25AA /* computers.png in Resources */,
 				A25CA1811D0CE6AF003B25AA /* Science.xib in Resources */,

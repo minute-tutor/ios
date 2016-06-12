@@ -2,29 +2,41 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>TRACKING_ID</key>
-	<string>UA-79208087-1</string>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>319252842470-g4nun76hsincb7upm7gdnajlk3lim6ge.apps.googleusercontent.com</string>
+	<string>869917362794-geeg7p4080lo7mi3d3mne06psedcibo9.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.319252842470-g4nun76hsincb7upm7gdnajlk3lim6ge</string>
+	<string>com.googleusercontent.apps.869917362794-geeg7p4080lo7mi3d3mne06psedcibo9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAVRVYH7CBQL_JvZ0ZZLxu1uKYJ4_b-43U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>869917362794</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.Mango-Apps.Minute-Tutor</string>
 	<key>PROJECT_ID</key>
-	<string>minutetutor-b4f2e</string>
+	<string>minute-tutor-ea85e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>minute-tutor-ea85e.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false/>
+	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<true/>
 	<key>IS_APPINVITE_ENABLED</key>
 	<false/>
 	<key>IS_GCM_ENABLED</key>
-	<false/>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:319252842470:ios:645cc17c639dc836</string>
+	<string>1:869917362794:ios:645cc17c639dc836</string>
+	<key>DATABASE_URL</key>
+	<string>https://minute-tutor-ea85e.firebaseio.com</string>
+	<key>TRACKING_ID</key>
+	<string>UA-79208087-1</string>
 </dict>
 </plist>

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Google/SignIn.h>
+#import <Firebase/Firebase.h>
 
 @interface ViewController : UIViewController <GIDSignInUIDelegate, UITableViewDelegate, UITableViewDataSource> {
     NSArray *tableData;

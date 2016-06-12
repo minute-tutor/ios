@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+@import Firebase;
+
 
 @interface AppDelegate ()
 
@@ -23,6 +25,8 @@
     NSAssert(!configureError, @"Error configuring Google services: %@", configureError);
     
     [GIDSignIn sharedInstance].delegate = self;
+    
+    [FIRApp configure];
     
     return YES;
 }

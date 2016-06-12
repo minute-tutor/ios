@@ -16,6 +16,9 @@
 #import "WorldLanguage.h"
 #import "myTutor.h"
 
+#import <Firebase/Firebase.h>
+@import Firebase;
+
 @interface ViewController ()
 
 @end
@@ -27,6 +30,12 @@
     [super viewDidLoad];
     
     tableData = [NSArray arrayWithObjects:@"Egg Benedict", @"Mushroom Risotto", @"Mushroom Risotto", @"Mushroom Risotto", @"Mushroom Risotto", nil];
+    
+    FIRDatabaseReference *rootRef= [[FIRDatabase database] reference];
+    
+    [rootRef observeEventType:FIRDataEventTypeChildAdded withBlock:^(FIRDataSnapshot *snapshot) {
+         NSLog(@"hi %@", snapshot.value[@"name"]);
+     }];
 
 }
 
