@@ -160,6 +160,9 @@
                         <constraint firstAttribute="height" constant="30" id="Hvf-Q5-qBT"/>
                     </constraints>
                     <state key="normal" title="Next"/>
+                    <connections>
+                        <action selector="next:" destination="-1" eventType="touchUpInside" id="eD8-wj-xTL"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPd-T9-X2N">
                     <rect key="frame" x="16" y="25" width="30" height="30"/>

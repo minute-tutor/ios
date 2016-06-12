@@ -7,6 +7,7 @@
 //
 
 #import "DataCollection.h"
+#import "SubSubjects.h"
 
 @interface DataCollection ()
 
@@ -90,4 +91,8 @@
     }
 }
 
+- (IBAction)next:(id)sender {
+    SubSubjects *viewController = [[SubSubjects alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
 @end

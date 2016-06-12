@@ -41,6 +41,8 @@
 		A25CA19B1D0D2F0A003B25AA /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = A25CA19A1D0D2F0A003B25AA /* Profile.m */; };
 		A25CA19F1D0D3224003B25AA /* DataCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = A25CA19D1D0D3224003B25AA /* DataCollection.m */; };
 		A25CA1A01D0D3224003B25AA /* DataCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = A25CA19E1D0D3224003B25AA /* DataCollection.xib */; };
+		A25CA1A41D0D42F6003B25AA /* SubSubjects.m in Sources */ = {isa = PBXBuildFile; fileRef = A25CA1A21D0D42F6003B25AA /* SubSubjects.m */; };
+		A25CA1A51D0D42F6003B25AA /* SubSubjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = A25CA1A31D0D42F6003B25AA /* SubSubjects.xib */; };
 		A2C1350A1D0C9ECD004045F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */; };
 		A2C135111D0CBC5E004045F1 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C1350F1D0CBC5E004045F1 /* HomePage.m */; };
 		A2C135121D0CBC5E004045F1 /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C135101D0CBC5E004045F1 /* HomePage.xib */; };
@@ -117,6 +119,9 @@
 		A25CA19C1D0D3224003B25AA /* DataCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCollection.h; sourceTree = "<group>"; };
 		A25CA19D1D0D3224003B25AA /* DataCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCollection.m; sourceTree = "<group>"; };
 		A25CA19E1D0D3224003B25AA /* DataCollection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataCollection.xib; sourceTree = "<group>"; };
+		A25CA1A11D0D42F6003B25AA /* SubSubjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSubjects.h; sourceTree = "<group>"; };
+		A25CA1A21D0D42F6003B25AA /* SubSubjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubSubjects.m; sourceTree = "<group>"; };
+		A25CA1A31D0D42F6003B25AA /* SubSubjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubSubjects.xib; sourceTree = "<group>"; };
 		A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A2C1350E1D0CBC5E004045F1 /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
 		A2C1350F1D0CBC5E004045F1 /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
@@ -177,6 +182,9 @@
 		A2D342341D0C8CA400F03DE8 = {
 			isa = PBXGroup;
 			children = (
+				A25CA1A11D0D42F6003B25AA /* SubSubjects.h */,
+				A25CA1A21D0D42F6003B25AA /* SubSubjects.m */,
+				A25CA1A31D0D42F6003B25AA /* SubSubjects.xib */,
 				A25CA19C1D0D3224003B25AA /* DataCollection.h */,
 				A25CA19D1D0D3224003B25AA /* DataCollection.m */,
 				A25CA19E1D0D3224003B25AA /* DataCollection.xib */,
@@ -424,6 +432,7 @@
 				A2C135121D0CBC5E004045F1 /* HomePage.xib in Resources */,
 				A25CA18E1D0CF7E1003B25AA /* outline_star.png in Resources */,
 				A2D342531D0C8CA400F03DE8 /* LaunchScreen.storyboard in Resources */,
+				A25CA1A51D0D42F6003B25AA /* SubSubjects.xib in Resources */,
 				A25CA1721D0CE66C003B25AA /* Mathematics.xib in Resources */,
 				A25CA1A01D0D3224003B25AA /* DataCollection.xib in Resources */,
 				A25CA1671D0CE1B1003B25AA /* literature.png in Resources */,
@@ -596,6 +605,7 @@
 				A2D3424E1D0C8CA400F03DE8 /* Minute_Tutor.xcdatamodeld in Sources */,
 				A2D342481D0C8CA400F03DE8 /* ViewController.m in Sources */,
 				A2C135111D0CBC5E004045F1 /* HomePage.m in Sources */,
+				A25CA1A41D0D42F6003B25AA /* SubSubjects.m in Sources */,
 				A25CA16C1D0CE5A2003B25AA /* LanguageArts.m in Sources */,
 				A25CA19B1D0D2F0A003B25AA /* Profile.m in Sources */,
 				A25CA17B1D0CE69E003B25AA /* Technology.m in Sources */,
