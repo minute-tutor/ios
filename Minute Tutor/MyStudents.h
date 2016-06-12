@@ -10,6 +10,8 @@
 
 @interface MyStudents : UIViewController <UITableViewDelegate, UITableViewDataSource> {
     NSArray *tableData;
+    NSMutableArray *arr;
+    IBOutlet UITableView *tableVie;
 }
 
 @end

@@ -232,6 +232,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="My Students" image="hat.png" id="6C6-tA-t6a"/>
+                    <connections>
+                        <outlet property="tableVie" destination="hDd-1i-Kdp" id="IeQ-aE-xVL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q6p-hd-3Vp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -329,6 +332,9 @@
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lg8-fe-Nkd">
                                 <rect key="frame" x="546" y="513" width="34" height="30"/>
                                 <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="save:" destination="Fxl-Qa-QQq" eventType="touchUpInside" id="0Lc-aF-b3Q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2U-QH-mZ6">
                                 <rect key="frame" x="551" y="28" width="36" height="30"/>
@@ -364,6 +370,16 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="face.png" id="3fT-Xf-1d0"/>
+                    <connections>
+                        <outlet property="name" destination="xG2-C6-uIF" id="h61-Qt-x6e"/>
+                        <outlet property="rate" destination="OdN-ba-9Ga" id="gSj-bH-Qj5"/>
+                        <outlet property="star1" destination="zEn-c8-x47" id="7WK-pC-DdT"/>
+                        <outlet property="star2" destination="N6d-FC-R0z" id="J94-ZS-SdR"/>
+                        <outlet property="star3" destination="xs9-WV-OWI" id="jtR-QL-Mda"/>
+                        <outlet property="star4" destination="N2C-bK-g1w" id="RIc-l7-YaX"/>
+                        <outlet property="star5" destination="hHk-3u-cbm" id="wrY-ai-uZj"/>
+                        <outlet property="tableVie" destination="4gA-EC-Oj2" id="XvY-vN-KkL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oac-0O-yNt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

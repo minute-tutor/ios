@@ -30,11 +30,19 @@
     [super viewDidLoad];
     
     tableData = [NSArray arrayWithObjects:@"Egg Benedict", @"Mushroom Risotto", @"Mushroom Risotto", @"Mushroom Risotto", @"Mushroom Risotto", nil];
+    NSMutableArray *arr = [[NSMutableArray alloc] init];
+    
     
     FIRDatabaseReference *rootRef= [[FIRDatabase database] reference];
     
     [rootRef observeEventType:FIRDataEventTypeChildAdded withBlock:^(FIRDataSnapshot *snapshot) {
-         NSLog(@"hi %@", snapshot.value[@"name"]);
+        NSLog(@"hi %@", snapshot.value[@"name"]);
+        NSArray *tutors = snapshot.value[@"myTutors"];
+        for(int x = 0; x < tutors.count; x++) {
+            [arr addObject:@"x"];
+        }
+        tableData = arr;
+
      }];
 
 }

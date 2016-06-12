@@ -8,6 +8,9 @@
 
 #import "MyStudents.h"
 
+#import <Firebase/Firebase.h>
+@import Firebase;
+
 @interface MyStudents ()
 
 @end
@@ -17,8 +20,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     tableData = [NSArray arrayWithObjects:@"Date - Name - Time", @"Date - Name - Time", @"Date - Name - Time", @"Date - Name - Time", @"Date - Name - Time", @"Date - Name - Time", @"Date - Name - Time", @"Date - Name - Time", @"Date - Name - Time", nil];
+    
+    
+    
 
     // Do any additional setup after loading the view.
+}
+-(void) viewWillAppear:(BOOL)animated {
+    arr = [[NSMutableArray alloc] init];
+
+    FIRDatabaseReference *rootRef= [[FIRDatabase database] reference];
+    
+    [rootRef observeEventType:FIRDataEventTypeChildAdded withBlock:^(FIRDataSnapshot *snapshot) {
+        NSLog(@"hi %@", snapshot.value[@"name"]);
+        NSArray *students = snapshot.value[@"myStudents"];
+        for(int x = 0; x < students.count; x++) {
+            NSDictionary *student = students[x];
+            NSLog([student valueForKey:@"name"]);
+            NSString *strRR = [NSString stringWithFormat:@"%@%@%@%@%@", [student valueForKey:@"date"], @"  -  ", [student valueForKey:@"name"], @"  -  ", [student valueForKey:@"time"]];
+            
+            [arr addObject: strRR];
+        }
+        
+        NSLog(arr[0]);
+        tableData = arr;
+        [tableVie reloadData];
+    }];
+}
+
+-(void) updateTable {
 }
 
 - (void)didReceiveMemoryWarning {
