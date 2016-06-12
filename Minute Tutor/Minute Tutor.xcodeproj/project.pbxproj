@@ -59,6 +59,8 @@
 		A2F507FF1D0DA93800F7DEA5 /* tutorList.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2F507FD1D0DA93800F7DEA5 /* tutorList.xib */; };
 		A2F508031D0DAA8100F7DEA5 /* tutorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F508011D0DAA8100F7DEA5 /* tutorDescription.m */; };
 		A2F508041D0DAA8100F7DEA5 /* tutorDescription.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2F508021D0DAA8100F7DEA5 /* tutorDescription.xib */; };
+		A2F508081D0DBCA700F7DEA5 /* Payments.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F508061D0DBCA700F7DEA5 /* Payments.m */; };
+		A2F508091D0DBCA700F7DEA5 /* Payments.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2F508071D0DBCA700F7DEA5 /* Payments.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +155,9 @@
 		A2F508001D0DAA8100F7DEA5 /* tutorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tutorDescription.h; sourceTree = "<group>"; };
 		A2F508011D0DAA8100F7DEA5 /* tutorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tutorDescription.m; sourceTree = "<group>"; };
 		A2F508021D0DAA8100F7DEA5 /* tutorDescription.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tutorDescription.xib; sourceTree = "<group>"; };
+		A2F508051D0DBCA700F7DEA5 /* Payments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payments.h; sourceTree = "<group>"; };
+		A2F508061D0DBCA700F7DEA5 /* Payments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payments.m; sourceTree = "<group>"; };
+		A2F508071D0DBCA700F7DEA5 /* Payments.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Payments.xib; sourceTree = "<group>"; };
 		A4760AB5944DF306B3475827 /* libPods-Minute TutorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Minute TutorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D745930F093ACDE670A005 /* Pods-Minute TutorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minute TutorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Minute TutorUITests/Pods-Minute TutorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6E3F773AE16405293AF7522 /* Pods-Minute TutorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minute TutorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Minute TutorTests/Pods-Minute TutorTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -192,6 +197,9 @@
 		A2D342341D0C8CA400F03DE8 = {
 			isa = PBXGroup;
 			children = (
+				A2F508051D0DBCA700F7DEA5 /* Payments.h */,
+				A2F508061D0DBCA700F7DEA5 /* Payments.m */,
+				A2F508071D0DBCA700F7DEA5 /* Payments.xib */,
 				A2F508001D0DAA8100F7DEA5 /* tutorDescription.h */,
 				A2F508011D0DAA8100F7DEA5 /* tutorDescription.m */,
 				A2F508021D0DAA8100F7DEA5 /* tutorDescription.xib */,
@@ -468,6 +476,7 @@
 				A25CA18C1D0CF791003B25AA /* full_star.png in Resources */,
 				A25CA1681D0CE1B1003B25AA /* math.png in Resources */,
 				A25CA1661D0CE1B1003B25AA /* language.png in Resources */,
+				A2F508091D0DBCA700F7DEA5 /* Payments.xib in Resources */,
 				A25CA1431D0CD76B003B25AA /* book.png in Resources */,
 				A2D3424B1D0C8CA400F03DE8 /* Main.storyboard in Resources */,
 				A25CA16D1D0CE5A2003B25AA /* LanguageArts.xib in Resources */,
@@ -632,6 +641,7 @@
 				A25CA1921D0D02DB003B25AA /* myTutor.m in Sources */,
 				A2D342451D0C8CA400F03DE8 /* AppDelegate.m in Sources */,
 				A25CA1761D0CE680003B25AA /* History.m in Sources */,
+				A2F508081D0DBCA700F7DEA5 /* Payments.m in Sources */,
 				A2F507FE1D0DA93800F7DEA5 /* tutorList.m in Sources */,
 				A2F508031D0DAA8100F7DEA5 /* tutorDescription.m in Sources */,
 				A25CA1961D0D23D9003B25AA /* MyStudents.m in Sources */,

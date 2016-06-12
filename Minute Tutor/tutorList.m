@@ -29,5 +29,8 @@
     tutorDescription *viewController = [[tutorDescription alloc] init];
     [self presentViewController:viewController animated:YES completion:nil];
 }
+- (IBAction)back:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 @end

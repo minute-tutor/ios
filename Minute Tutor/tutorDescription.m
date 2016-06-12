@@ -27,5 +27,8 @@
 - (IBAction)call:(id)sender {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"skype:davidsillman?call&video=true"]];
 }
+- (IBAction)back:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 @end
