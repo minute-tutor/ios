@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A2D3423C1D0C8CA400F03DE8"
-               BuildableName = "Minute Tutor.app"
-               BlueprintName = "Minute Tutor"
-               ReferencedContainer = "container:Minute Tutor.xcodeproj">
+               BuildableName = "minuteTUTOR.app"
+               BlueprintName = "minuteTUTOR"
+               ReferencedContainer = "container:minuteTUTOR.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A2D342581D0C8CA400F03DE8"
-               BuildableName = "Minute TutorTests.xctest"
-               BlueprintName = "Minute TutorTests"
-               ReferencedContainer = "container:Minute Tutor.xcodeproj">
+               BuildableName = "minuteTUTOR.xctest"
+               BlueprintName = "minuteTUTORTests"
+               ReferencedContainer = "container:minuteTUTOR.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A2D342631D0C8CA400F03DE8"
-               BuildableName = "Minute TutorUITests.xctest"
-               BlueprintName = "Minute TutorUITests"
-               ReferencedContainer = "container:Minute Tutor.xcodeproj">
+               BuildableName = "minuteTUTOR.xctest"
+               BlueprintName = "minuteTUTORUITests"
+               ReferencedContainer = "container:minuteTUTOR.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2D3423C1D0C8CA400F03DE8"
-            BuildableName = "Minute Tutor.app"
-            BlueprintName = "Minute Tutor"
-            ReferencedContainer = "container:Minute Tutor.xcodeproj">
+            BuildableName = "minuteTUTOR.app"
+            BlueprintName = "minuteTUTOR"
+            ReferencedContainer = "container:minuteTUTOR.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2D3423C1D0C8CA400F03DE8"
-            BuildableName = "Minute Tutor.app"
-            BlueprintName = "Minute Tutor"
-            ReferencedContainer = "container:Minute Tutor.xcodeproj">
+            BuildableName = "minuteTUTOR.app"
+            BlueprintName = "minuteTUTOR"
+            ReferencedContainer = "container:minuteTUTOR.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2D3423C1D0C8CA400F03DE8"
-            BuildableName = "Minute Tutor.app"
-            BlueprintName = "Minute Tutor"
-            ReferencedContainer = "container:Minute Tutor.xcodeproj">
+            BuildableName = "minuteTUTOR.app"
+            BlueprintName = "minuteTUTOR"
+            ReferencedContainer = "container:minuteTUTOR.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

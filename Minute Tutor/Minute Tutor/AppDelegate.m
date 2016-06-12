@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "HomePage.h"
+#import "DataCollection.h"
+
 @import Firebase;
 
 
@@ -27,6 +30,17 @@
     [GIDSignIn sharedInstance].delegate = self;
     
     [FIRApp configure];
+    
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"HasLaunchedOnce"])
+    {
+        NSLog(@"first time");
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"HasLaunchedOnce"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+        HomePage *viewController = [[HomePage alloc] init]; //load your first view controller with the initial xib here
+        UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+        self.window.rootViewController = navigationController;
+    }
     
     return YES;
 }
@@ -58,7 +72,10 @@ didSignInForUser:(GIDGoogleUser *)user
     NSString *givenName = user.profile.givenName;
     NSString *familyName = user.profile.familyName;
     NSString *email = user.profile.email;
-    // ...
+    
+    DataCollection *viewController = [[DataCollection alloc] init]; //load your first view controller with the initial xib here
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    self.window.rootViewController = navigationController;
 }
 
 - (void)signIn:(GIDSignIn *)signIn

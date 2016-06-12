@@ -8,6 +8,7 @@
 
 #import "DataCollection.h"
 #import "SubSubjects.h"
+#import "ViewController.h"
 
 #import <Firebase/Firebase.h>
 @import Firebase;
@@ -109,7 +110,14 @@
     [[[rootRef child:@"0"] child:@"rate"] setValue: rate.text];
     [[[rootRef child:@"0"] child:@"skypeID"] setValue: skype.text];
     
-    SubSubjects *viewController = [[SubSubjects alloc] init];
-    [self presentViewController:viewController animated:YES completion:nil];
+//    SubSubjects *viewController = [[SubSubjects alloc] init];
+//    [self presentViewController:viewController animated:YES completion:nil];
+    
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ViewController *vc = [sb instantiateViewControllerWithIdentifier:@"Main"];
+    vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentViewController:vc animated:YES completion:NULL];
+    
+
 }
 @end

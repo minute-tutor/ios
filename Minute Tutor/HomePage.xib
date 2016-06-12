@@ -16,37 +16,36 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="minute" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6WQ-sf-DRc">
-                    <rect key="frame" x="254" y="20" width="106" height="43"/>
+                    <rect key="frame" x="247" y="62" width="106" height="43"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="36"/>
                     <color key="textColor" red="0.86873477700000001" green="0.79971700909999999" blue="0.50940203669999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="umd-4y-7fj" customClass="GIDSignInButton">
-                    <rect key="frame" x="69" y="126" width="477" height="54"/>
+                    <rect key="frame" x="62" y="168" width="477" height="54"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TUTOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CH-MG-vpR">
-                    <rect key="frame" x="231" y="44" width="152" height="62"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="TUTOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CH-MG-vpR">
+                    <rect key="frame" x="224" y="86" width="152" height="62"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="41"/>
                     <color key="textColor" red="0.86457294230000004" green="0.75438076259999998" blue="0.26644939179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q6o-0W-4pb">
-                    <rect key="frame" x="69" y="103" width="477" height="3"/>
+                    <rect key="frame" x="62" y="145" width="477" height="3"/>
                     <color key="backgroundColor" red="0.78157657384872437" green="0.75513154268264771" blue="0.50749260187149048" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSS-Hj-9iW">
-                    <rect key="frame" x="55" y="348" width="57" height="30"/>
-                    <state key="normal" title="Sign out"/>
-                    <connections>
-                        <action selector="didTapSignOut:" destination="-1" eventType="touchUpInside" id="DJO-aU-trm"/>
-                    </connections>
-                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="0.99176901578903198" blue="0.92433607578277588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstAttribute="trailing" secondItem="Q6o-0W-4pb" secondAttribute="trailing" constant="61" id="5Um-hK-jW1"/>
+                <constraint firstItem="Q6o-0W-4pb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="62" id="DqR-YI-Mlu"/>
                 <constraint firstItem="umd-4y-7fj" firstAttribute="top" secondItem="Q6o-0W-4pb" secondAttribute="bottom" constant="20" id="Es8-8y-sjU"/>
                 <constraint firstItem="Q6o-0W-4pb" firstAttribute="top" secondItem="6WQ-sf-DRc" secondAttribute="bottom" constant="40" id="HHY-kZ-vxP"/>
+                <constraint firstAttribute="trailing" secondItem="umd-4y-7fj" secondAttribute="trailing" constant="61" id="N9c-9e-ZZi"/>
+                <constraint firstItem="umd-4y-7fj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="62" id="UXM-FH-tj0"/>
+                <constraint firstItem="6WQ-sf-DRc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gC4-ju-NKk"/>
+                <constraint firstItem="4CH-MG-vpR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gUQ-Iv-vXj"/>
             </constraints>
         </view>
     </objects>

@@ -132,7 +132,7 @@
 		A2C1350E1D0CBC5E004045F1 /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
 		A2C1350F1D0CBC5E004045F1 /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
 		A2C135101D0CBC5E004045F1 /* HomePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePage.xib; sourceTree = "<group>"; };
-		A2D3423D1D0C8CA400F03DE8 /* Minute Tutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minute Tutor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D3423D1D0C8CA400F03DE8 /* minuteTUTOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minuteTUTOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D342411D0C8CA400F03DE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2D342431D0C8CA400F03DE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2D342441D0C8CA400F03DE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -143,10 +143,10 @@
 		A2D3424F1D0C8CA400F03DE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2D342521D0C8CA400F03DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2D342541D0C8CA400F03DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2D342591D0C8CA400F03DE8 /* Minute TutorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minute TutorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D342591D0C8CA400F03DE8 /* minuteTUTOR.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minuteTUTOR.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D3425D1D0C8CA400F03DE8 /* Minute_TutorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Minute_TutorTests.m; sourceTree = "<group>"; };
 		A2D3425F1D0C8CA400F03DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2D342641D0C8CA400F03DE8 /* Minute TutorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minute TutorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D342641D0C8CA400F03DE8 /* minuteTUTOR.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minuteTUTOR.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D342681D0C8CA400F03DE8 /* Minute_TutorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Minute_TutorUITests.m; sourceTree = "<group>"; };
 		A2D3426A1D0C8CA400F03DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2F507FB1D0DA93800F7DEA5 /* tutorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tutorList.h; sourceTree = "<group>"; };
@@ -253,9 +253,9 @@
 		A2D3423E1D0C8CA400F03DE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2D3423D1D0C8CA400F03DE8 /* Minute Tutor.app */,
-				A2D342591D0C8CA400F03DE8 /* Minute TutorTests.xctest */,
-				A2D342641D0C8CA400F03DE8 /* Minute TutorUITests.xctest */,
+				A2D3423D1D0C8CA400F03DE8 /* minuteTUTOR.app */,
+				A2D342591D0C8CA400F03DE8 /* minuteTUTOR.xctest */,
+				A2D342641D0C8CA400F03DE8 /* minuteTUTOR.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -342,9 +342,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2D3423C1D0C8CA400F03DE8 /* Minute Tutor */ = {
+		A2D3423C1D0C8CA400F03DE8 /* minuteTUTOR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2D3426D1D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "Minute Tutor" */;
+			buildConfigurationList = A2D3426D1D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "minuteTUTOR" */;
 			buildPhases = (
 				48060BAAF2089E82C110D0C3 /* 📦 Check Pods Manifest.lock */,
 				A2D342391D0C8CA400F03DE8 /* Sources */,
@@ -357,14 +357,14 @@
 			);
 			dependencies = (
 			);
-			name = "Minute Tutor";
+			name = minuteTUTOR;
 			productName = "Minute Tutor";
-			productReference = A2D3423D1D0C8CA400F03DE8 /* Minute Tutor.app */;
+			productReference = A2D3423D1D0C8CA400F03DE8 /* minuteTUTOR.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A2D342581D0C8CA400F03DE8 /* Minute TutorTests */ = {
+		A2D342581D0C8CA400F03DE8 /* minuteTUTORTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2D342701D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "Minute TutorTests" */;
+			buildConfigurationList = A2D342701D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "minuteTUTORTests" */;
 			buildPhases = (
 				EDF8E0B556F50EE02B384DA5 /* 📦 Check Pods Manifest.lock */,
 				A2D342551D0C8CA400F03DE8 /* Sources */,
@@ -378,14 +378,14 @@
 			dependencies = (
 				A2D3425B1D0C8CA400F03DE8 /* PBXTargetDependency */,
 			);
-			name = "Minute TutorTests";
+			name = minuteTUTORTests;
 			productName = "Minute TutorTests";
-			productReference = A2D342591D0C8CA400F03DE8 /* Minute TutorTests.xctest */;
+			productReference = A2D342591D0C8CA400F03DE8 /* minuteTUTOR.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A2D342631D0C8CA400F03DE8 /* Minute TutorUITests */ = {
+		A2D342631D0C8CA400F03DE8 /* minuteTUTORUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2D342731D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "Minute TutorUITests" */;
+			buildConfigurationList = A2D342731D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "minuteTUTORUITests" */;
 			buildPhases = (
 				CE022846AFA93A0692DAC87E /* 📦 Check Pods Manifest.lock */,
 				A2D342601D0C8CA400F03DE8 /* Sources */,
@@ -398,9 +398,9 @@
 			dependencies = (
 				A2D342661D0C8CA400F03DE8 /* PBXTargetDependency */,
 			);
-			name = "Minute TutorUITests";
+			name = minuteTUTORUITests;
 			productName = "Minute TutorUITests";
-			productReference = A2D342641D0C8CA400F03DE8 /* Minute TutorUITests.xctest */;
+			productReference = A2D342641D0C8CA400F03DE8 /* minuteTUTOR.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -425,7 +425,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2D342381D0C8CA400F03DE8 /* Build configuration list for PBXProject "Minute Tutor" */;
+			buildConfigurationList = A2D342381D0C8CA400F03DE8 /* Build configuration list for PBXProject "minuteTUTOR" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -438,9 +438,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2D3423C1D0C8CA400F03DE8 /* Minute Tutor */,
-				A2D342581D0C8CA400F03DE8 /* Minute TutorTests */,
-				A2D342631D0C8CA400F03DE8 /* Minute TutorUITests */,
+				A2D3423C1D0C8CA400F03DE8 /* minuteTUTOR */,
+				A2D342581D0C8CA400F03DE8 /* minuteTUTORTests */,
+				A2D342631D0C8CA400F03DE8 /* minuteTUTORUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -670,12 +670,12 @@
 /* Begin PBXTargetDependency section */
 		A2D3425B1D0C8CA400F03DE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2D3423C1D0C8CA400F03DE8 /* Minute Tutor */;
+			target = A2D3423C1D0C8CA400F03DE8 /* minuteTUTOR */;
 			targetProxy = A2D3425A1D0C8CA400F03DE8 /* PBXContainerItemProxy */;
 		};
 		A2D342661D0C8CA400F03DE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2D3423C1D0C8CA400F03DE8 /* Minute Tutor */;
+			target = A2D3423C1D0C8CA400F03DE8 /* minuteTUTOR */;
 			targetProxy = A2D342651D0C8CA400F03DE8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -786,11 +786,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F85E3AEA06DC2BDD55E57B8F /* Pods-Minute Tutor.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				INFOPLIST_FILE = "Minute Tutor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mango-Apps.Minute-Tutor";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = minuteTUTOR;
 			};
 			name = Debug;
 		};
@@ -798,11 +798,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 99EEF57C7E7C2549DF737061 /* Pods-Minute Tutor.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				INFOPLIST_FILE = "Minute Tutor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mango-Apps.Minute-Tutor";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = minuteTUTOR;
 			};
 			name = Release;
 		};
@@ -814,8 +814,8 @@
 				INFOPLIST_FILE = "Minute TutorTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mango-Apps.Minute-TutorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minute Tutor.app/Minute Tutor";
+				PRODUCT_NAME = minuteTUTOR;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minuteTUTOR.app/minuteTUTOR";
 			};
 			name = Debug;
 		};
@@ -827,8 +827,8 @@
 				INFOPLIST_FILE = "Minute TutorTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mango-Apps.Minute-TutorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minute Tutor.app/Minute Tutor";
+				PRODUCT_NAME = minuteTUTOR;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minuteTUTOR.app/minuteTUTOR";
 			};
 			name = Release;
 		};
@@ -839,7 +839,7 @@
 				INFOPLIST_FILE = "Minute TutorUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mango-Apps.Minute-TutorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = minuteTUTOR;
 				TEST_TARGET_NAME = "Minute Tutor";
 			};
 			name = Debug;
@@ -851,7 +851,7 @@
 				INFOPLIST_FILE = "Minute TutorUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mango-Apps.Minute-TutorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = minuteTUTOR;
 				TEST_TARGET_NAME = "Minute Tutor";
 			};
 			name = Release;
@@ -859,7 +859,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2D342381D0C8CA400F03DE8 /* Build configuration list for PBXProject "Minute Tutor" */ = {
+		A2D342381D0C8CA400F03DE8 /* Build configuration list for PBXProject "minuteTUTOR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2D3426B1D0C8CA400F03DE8 /* Debug */,
@@ -868,7 +868,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2D3426D1D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "Minute Tutor" */ = {
+		A2D3426D1D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "minuteTUTOR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2D3426E1D0C8CA400F03DE8 /* Debug */,
@@ -877,7 +877,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2D342701D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "Minute TutorTests" */ = {
+		A2D342701D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "minuteTUTORTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2D342711D0C8CA400F03DE8 /* Debug */,
@@ -886,7 +886,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2D342731D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "Minute TutorUITests" */ = {
+		A2D342731D0C8CA400F03DE8 /* Build configuration list for PBXNativeTarget "minuteTUTORUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2D342741D0C8CA400F03DE8 /* Debug */,

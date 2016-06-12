@@ -7,6 +7,7 @@
 //
 
 #import "HomePage.h"
+#import "DataCollection.h"
 
 @interface HomePage ()
 
