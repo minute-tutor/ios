@@ -36,6 +36,7 @@
 		A25CA18E1D0CF7E1003B25AA /* outline_star.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA18D1D0CF7E1003B25AA /* outline_star.png */; };
 		A25CA1921D0D02DB003B25AA /* myTutor.m in Sources */ = {isa = PBXBuildFile; fileRef = A25CA1901D0D02DB003B25AA /* myTutor.m */; };
 		A25CA1931D0D02DB003B25AA /* myTutor.xib in Resources */ = {isa = PBXBuildFile; fileRef = A25CA1911D0D02DB003B25AA /* myTutor.xib */; };
+		A25CA1961D0D23D9003B25AA /* MyStudents.m in Sources */ = {isa = PBXBuildFile; fileRef = A25CA1951D0D23D9003B25AA /* MyStudents.m */; };
 		A2C1350A1D0C9ECD004045F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */; };
 		A2C135111D0CBC5E004045F1 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C1350F1D0CBC5E004045F1 /* HomePage.m */; };
 		A2C135121D0CBC5E004045F1 /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C135101D0CBC5E004045F1 /* HomePage.xib */; };
@@ -104,6 +105,8 @@
 		A25CA18F1D0D02DB003B25AA /* myTutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTutor.h; sourceTree = "<group>"; };
 		A25CA1901D0D02DB003B25AA /* myTutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTutor.m; sourceTree = "<group>"; };
 		A25CA1911D0D02DB003B25AA /* myTutor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myTutor.xib; sourceTree = "<group>"; };
+		A25CA1941D0D23D9003B25AA /* MyStudents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStudents.h; sourceTree = "<group>"; };
+		A25CA1951D0D23D9003B25AA /* MyStudents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStudents.m; sourceTree = "<group>"; };
 		A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A2C1350E1D0CBC5E004045F1 /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
 		A2C1350F1D0CBC5E004045F1 /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
@@ -164,6 +167,8 @@
 		A2D342341D0C8CA400F03DE8 = {
 			isa = PBXGroup;
 			children = (
+				A25CA1941D0D23D9003B25AA /* MyStudents.h */,
+				A25CA1951D0D23D9003B25AA /* MyStudents.m */,
 				A25CA18F1D0D02DB003B25AA /* myTutor.h */,
 				A25CA1901D0D02DB003B25AA /* myTutor.m */,
 				A25CA1911D0D02DB003B25AA /* myTutor.xib */,
@@ -579,6 +584,7 @@
 				A25CA1921D0D02DB003B25AA /* myTutor.m in Sources */,
 				A2D342451D0C8CA400F03DE8 /* AppDelegate.m in Sources */,
 				A25CA1761D0CE680003B25AA /* History.m in Sources */,
+				A25CA1961D0D23D9003B25AA /* MyStudents.m in Sources */,
 				A2D342421D0C8CA400F03DE8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
