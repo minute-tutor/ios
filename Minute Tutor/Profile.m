@@ -8,6 +8,7 @@
 
 #import "Profile.h"
 #import "DataCollection.h"
+#import "SubSubjects.h"
 
 @interface Profile ()
 
@@ -46,6 +47,10 @@
 
 - (IBAction)more:(id)sender {
     DataCollection *viewController = [[DataCollection alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)newSubject:(id)sender {
+    SubSubjects *viewController = [[SubSubjects alloc] init];
     [self presentViewController:viewController animated:YES completion:nil];
 }
 @end

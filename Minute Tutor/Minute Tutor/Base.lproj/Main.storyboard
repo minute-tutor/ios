@@ -322,6 +322,9 @@
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4u-Fo-wwQ">
                                 <rect key="frame" x="468" y="278" width="101" height="30"/>
                                 <state key="normal" title="+ New Subject"/>
+                                <connections>
+                                    <action selector="newSubject:" destination="Fxl-Qa-QQq" eventType="touchUpInside" id="8L3-Q8-Lir"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lg8-fe-Nkd">
                                 <rect key="frame" x="546" y="513" width="34" height="30"/>
