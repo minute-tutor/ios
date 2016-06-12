@@ -8,6 +8,12 @@
 
 #import "ViewController.h"
 #import "HomePage.h"
+#import "LanguageArts.h"
+#import "Mathematics.h"
+#import "History.h"
+#import "Technology.h"
+#import "Science.h"
+#import "WorldLanguage.h"
 
 @interface ViewController ()
 
@@ -18,9 +24,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    
-//    HomePage *viewController = [[HomePage alloc] init];
-//    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,6 +32,30 @@
 }
 - (IBAction)didTapSignOut:(id)sender {
     [[GIDSignIn sharedInstance] signOut];
+}
+- (IBAction)languageArts:(id)sender {
+    LanguageArts *viewController = [[LanguageArts alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)mathematics:(id)sender {
+    Mathematics *viewController = [[Mathematics alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)history:(id)sender {
+    History *viewController = [[History alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)technology:(id)sender {
+    Technology *viewController = [[Technology alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)science:(id)sender {
+    Science *viewController = [[Science alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)worldLanguage:(id)sender {
+    WorldLanguage *viewController = [[WorldLanguage alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 @end

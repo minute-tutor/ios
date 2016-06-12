@@ -9,7 +9,7 @@
         <!--Home-->
         <scene sceneID="MNK-Ho-AI1">
             <objects>
-                <viewController id="Vt0-ci-Mma" sceneMemberID="viewController">
+                <viewController id="Vt0-ci-Mma" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8w8-ax-48G"/>
                         <viewControllerLayoutGuide type="bottom" id="a2j-fj-6Fg"/>
@@ -27,26 +27,44 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tA1-iW-h1m">
                                 <rect key="frame" x="73" y="92" width="50" height="50"/>
                                 <state key="normal" image="literature.png"/>
+                                <connections>
+                                    <action selector="languageArts:" destination="Vt0-ci-Mma" eventType="touchUpInside" id="zCB-zh-kWx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhg-HK-nYZ">
                                 <rect key="frame" x="478" y="92" width="50" height="50"/>
                                 <state key="normal" image="math.png"/>
+                                <connections>
+                                    <action selector="mathematics:" destination="Vt0-ci-Mma" eventType="touchUpInside" id="Dm7-os-j1l"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASJ-yN-nIY">
                                 <rect key="frame" x="73" y="248" width="50" height="50"/>
                                 <state key="normal" image="history.png"/>
+                                <connections>
+                                    <action selector="history:" destination="Vt0-ci-Mma" eventType="touchUpInside" id="OlV-YL-0RG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btf-Kc-FVs">
                                 <rect key="frame" x="478" y="248" width="50" height="50"/>
                                 <state key="normal" image="computers.png"/>
+                                <connections>
+                                    <action selector="technology:" destination="Vt0-ci-Mma" eventType="touchUpInside" id="ND4-yz-1EN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leQ-jp-WyM">
                                 <rect key="frame" x="73" y="425" width="50" height="50"/>
                                 <state key="normal" image="chemistry.png"/>
+                                <connections>
+                                    <action selector="science:" destination="Vt0-ci-Mma" eventType="touchUpInside" id="1HK-ad-NXQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAN-ET-IRL">
                                 <rect key="frame" x="478" y="425" width="50" height="50"/>
                                 <state key="normal" image="language.png"/>
+                                <connections>
+                                    <action selector="worldLanguage:" destination="Vt0-ci-Mma" eventType="touchUpInside" id="YqP-zG-Upg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Language Arts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBw-f9-KUc">
                                 <rect key="frame" x="42" y="150" width="107" height="21"/>
