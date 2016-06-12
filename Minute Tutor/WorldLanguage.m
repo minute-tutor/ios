@@ -7,6 +7,7 @@
 //
 
 #import "WorldLanguage.h"
+#import "tutorList.h"
 
 @interface WorldLanguage ()
 
@@ -26,6 +27,27 @@
 
 - (IBAction)back:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)french:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)mandarin:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)spanish:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)japanese:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)hindi:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 @end

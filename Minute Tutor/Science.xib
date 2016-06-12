@@ -41,6 +41,9 @@
                             <integer key="value" value="1"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="chemistry:" destination="-1" eventType="touchUpInside" id="1Gt-Xa-LdD"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tba-yd-ZmD">
                     <rect key="frame" x="177" y="160" width="246" height="40"/>
@@ -54,6 +57,9 @@
                             <integer key="value" value="1"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="biology:" destination="-1" eventType="touchUpInside" id="lve-08-dYS"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91G-Ie-e4s">
                     <rect key="frame" x="177" y="230" width="246" height="40"/>
@@ -67,6 +73,9 @@
                             <integer key="value" value="1"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="physics:" destination="-1" eventType="touchUpInside" id="2Ua-Wl-PAh"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAk-Mm-pOP">
                     <rect key="frame" x="177" y="300" width="246" height="40"/>
@@ -80,6 +89,9 @@
                             <integer key="value" value="1"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="environmental:" destination="-1" eventType="touchUpInside" id="2ES-mU-yHF"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9DJ-Cg-jsG">
                     <rect key="frame" x="177" y="370" width="246" height="40"/>
@@ -93,6 +105,9 @@
                             <integer key="value" value="1"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="astronomy:" destination="-1" eventType="touchUpInside" id="fIg-KA-LuW"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="0.99176901578903198" blue="0.92433607578277588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

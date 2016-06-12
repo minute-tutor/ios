@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="tutorDescription">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="face.png" translatesAutoresizingMaskIntoConstraints="NO" id="fhX-jQ-lpT">
+                    <rect key="frame" x="8" y="14" width="101" height="94"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="101" id="GUa-So-2m1"/>
+                        <constraint firstAttribute="height" constant="94" id="chg-cV-fbZ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$12 / min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10h-7f-ajf">
+                    <rect key="frame" x="9" y="129" width="99" height="40"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="full_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="uBh-hm-hpi">
+                    <rect key="frame" x="262" y="61" width="40" height="40"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="full_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="N8e-MU-jX0">
+                    <rect key="frame" x="310" y="61" width="40" height="40"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="full_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="ezt-Eu-Lie">
+                    <rect key="frame" x="358" y="61" width="40" height="40"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="outline_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="IxC-Cx-Voe">
+                    <rect key="frame" x="406" y="61" width="40" height="40"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="full_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="fCf-M2-NGF">
+                    <rect key="frame" x="214" y="61" width="40" height="40"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izU-9D-Ebh">
+                    <rect key="frame" x="142" y="163" width="317" height="273"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="317" id="Oyt-aN-a0f"/>
+                    </constraints>
+                    <mutableString key="text">asdfasldasdfasldkfj;akldflkdfkjsdlkfhsdjkfhsjdfhjksdhfkjsdhfkjshfkjshfasdfasldkfj;akldflkdfkjsdlkfhsdjkfhsjdfhjksdhfkjsdhfkjshfkjshfasdfasldkfj;akldflkdfkjsdlkfhsdjkfhsjdfhjksdhfkjsdhfkjshfkjshfasdfasldkfj;akldflkdfkjsdlkfhsdjkfhsjdfhjksdhfkjsdhfkjshfkjshfasdfasldkfj;akldflkdfkjsdlkfhsdjkfhsjdfhjksdhfkjsdhfkjshfkjshfasdfasldkfj;akldflkdfkjsdlkfhsdjkfhsjdfhjksdhfkjsdhfkjshfkjshfasdfasldkfj;akldflkdfkjsdlkfhsdjkfhsjdfhjksdhfkjsdhfkjshfkjshfasdfasldkfj;akldflkdfkjsdlkfhsdjkfhsjdfhjksdhfkjsdhfkjshfkjshfasdfasldkfj;akldflkdfkjsdlkfhsdjkfhsjdfhjksdhfkjsdhfkjshfkjshfkfj;akldflkdfkjsdlkfhsdjkfhsjdfhjksdhfkjsdhfkjshfkjshf</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="147-DY-qFf">
+                    <rect key="frame" x="94" y="496" width="412" height="96"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="36"/>
+                    <state key="normal" title="Get Help From David"/>
+                    <connections>
+                        <action selector="call:" destination="-1" eventType="touchUpInside" id="dh8-Nq-kze"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="David Sillman" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3k-di-quK">
+                    <rect key="frame" x="235" y="14" width="191" height="39"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="33"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.99498718976974487" blue="0.92059743404388428" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="o3k-di-quK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="30.5" id="19h-RR-lMP"/>
+                <constraint firstItem="fCf-M2-NGF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-66" id="1O7-6V-mxU"/>
+                <constraint firstItem="IxC-Cx-Voe" firstAttribute="top" secondItem="o3k-di-quK" secondAttribute="bottom" constant="8" id="3b2-Ia-klR"/>
+                <constraint firstItem="fCf-M2-NGF" firstAttribute="top" secondItem="o3k-di-quK" secondAttribute="bottom" constant="8" id="8J4-I5-rpR"/>
+                <constraint firstItem="fhX-jQ-lpT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="14" id="A8u-8w-gEn"/>
+                <constraint firstItem="147-DY-qFf" firstAttribute="top" secondItem="izU-9D-Ebh" secondAttribute="bottom" constant="60" id="B0m-2G-lfn"/>
+                <constraint firstItem="ezt-Eu-Lie" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="78" id="Bxe-HJ-yvy"/>
+                <constraint firstItem="147-DY-qFf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Dc7-sK-Vzh"/>
+                <constraint firstItem="10h-7f-ajf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="9" id="M6j-mc-03u"/>
+                <constraint firstItem="uBh-hm-hpi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-18" id="RCM-7R-OK9"/>
+                <constraint firstItem="IxC-Cx-Voe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="126" id="Szy-gb-ibj"/>
+                <constraint firstItem="N8e-MU-jX0" firstAttribute="top" secondItem="o3k-di-quK" secondAttribute="bottom" constant="8" id="T43-Y7-GPZ"/>
+                <constraint firstItem="o3k-di-quK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="14" id="eYa-a0-TPn"/>
+                <constraint firstItem="izU-9D-Ebh" firstAttribute="top" secondItem="fhX-jQ-lpT" secondAttribute="bottom" constant="55" id="feA-Vw-Icu"/>
+                <constraint firstItem="izU-9D-Ebh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jci-Bz-kpN"/>
+                <constraint firstItem="uBh-hm-hpi" firstAttribute="top" secondItem="o3k-di-quK" secondAttribute="bottom" constant="8" id="npB-qk-FDv"/>
+                <constraint firstItem="10h-7f-ajf" firstAttribute="top" secondItem="fhX-jQ-lpT" secondAttribute="bottom" constant="21" id="qay-gr-D7F"/>
+                <constraint firstItem="ezt-Eu-Lie" firstAttribute="top" secondItem="o3k-di-quK" secondAttribute="bottom" constant="8" id="rho-DK-DKq"/>
+                <constraint firstItem="fhX-jQ-lpT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="slV-lE-gAg"/>
+                <constraint firstItem="N8e-MU-jX0" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="30" id="xcX-Qe-nyb"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="face.png" width="35" height="35"/>
+        <image name="full_star.png" width="50" height="50"/>
+        <image name="outline_star.png" width="50" height="50"/>
+    </resources>
+</document>

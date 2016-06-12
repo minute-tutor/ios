@@ -55,6 +55,10 @@
 		A2D342531D0C8CA400F03DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D342511D0C8CA400F03DE8 /* LaunchScreen.storyboard */; };
 		A2D3425E1D0C8CA400F03DE8 /* Minute_TutorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D3425D1D0C8CA400F03DE8 /* Minute_TutorTests.m */; };
 		A2D342691D0C8CA400F03DE8 /* Minute_TutorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D342681D0C8CA400F03DE8 /* Minute_TutorUITests.m */; };
+		A2F507FE1D0DA93800F7DEA5 /* tutorList.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F507FC1D0DA93800F7DEA5 /* tutorList.m */; };
+		A2F507FF1D0DA93800F7DEA5 /* tutorList.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2F507FD1D0DA93800F7DEA5 /* tutorList.xib */; };
+		A2F508031D0DAA8100F7DEA5 /* tutorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F508011D0DAA8100F7DEA5 /* tutorDescription.m */; };
+		A2F508041D0DAA8100F7DEA5 /* tutorDescription.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2F508021D0DAA8100F7DEA5 /* tutorDescription.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +147,12 @@
 		A2D342641D0C8CA400F03DE8 /* Minute TutorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minute TutorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D342681D0C8CA400F03DE8 /* Minute_TutorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Minute_TutorUITests.m; sourceTree = "<group>"; };
 		A2D3426A1D0C8CA400F03DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F507FB1D0DA93800F7DEA5 /* tutorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tutorList.h; sourceTree = "<group>"; };
+		A2F507FC1D0DA93800F7DEA5 /* tutorList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tutorList.m; sourceTree = "<group>"; };
+		A2F507FD1D0DA93800F7DEA5 /* tutorList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tutorList.xib; sourceTree = "<group>"; };
+		A2F508001D0DAA8100F7DEA5 /* tutorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tutorDescription.h; sourceTree = "<group>"; };
+		A2F508011D0DAA8100F7DEA5 /* tutorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tutorDescription.m; sourceTree = "<group>"; };
+		A2F508021D0DAA8100F7DEA5 /* tutorDescription.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tutorDescription.xib; sourceTree = "<group>"; };
 		A4760AB5944DF306B3475827 /* libPods-Minute TutorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Minute TutorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D745930F093ACDE670A005 /* Pods-Minute TutorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minute TutorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Minute TutorUITests/Pods-Minute TutorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6E3F773AE16405293AF7522 /* Pods-Minute TutorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minute TutorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Minute TutorTests/Pods-Minute TutorTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +192,12 @@
 		A2D342341D0C8CA400F03DE8 = {
 			isa = PBXGroup;
 			children = (
+				A2F508001D0DAA8100F7DEA5 /* tutorDescription.h */,
+				A2F508011D0DAA8100F7DEA5 /* tutorDescription.m */,
+				A2F508021D0DAA8100F7DEA5 /* tutorDescription.xib */,
+				A2F507FB1D0DA93800F7DEA5 /* tutorList.h */,
+				A2F507FC1D0DA93800F7DEA5 /* tutorList.m */,
+				A2F507FD1D0DA93800F7DEA5 /* tutorList.xib */,
 				A25CA1A11D0D42F6003B25AA /* SubSubjects.h */,
 				A25CA1A21D0D42F6003B25AA /* SubSubjects.m */,
 				A25CA1A31D0D42F6003B25AA /* SubSubjects.xib */,
@@ -426,6 +442,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F507FF1D0DA93800F7DEA5 /* tutorList.xib in Resources */,
 				A25CA1861D0CE6D7003B25AA /* WorldLanguage.xib in Resources */,
 				A25CA1651D0CE1B1003B25AA /* history.png in Resources */,
 				A25CA1631D0CE1B1003B25AA /* chemistry.png in Resources */,
@@ -447,6 +464,7 @@
 				A25CA1441D0CD76B003B25AA /* hat.png in Resources */,
 				A25CA17C1D0CE69E003B25AA /* Technology.xib in Resources */,
 				A25CA1771D0CE680003B25AA /* History.xib in Resources */,
+				A2F508041D0DAA8100F7DEA5 /* tutorDescription.xib in Resources */,
 				A25CA18C1D0CF791003B25AA /* full_star.png in Resources */,
 				A25CA1681D0CE1B1003B25AA /* math.png in Resources */,
 				A25CA1661D0CE1B1003B25AA /* language.png in Resources */,
@@ -614,6 +632,8 @@
 				A25CA1921D0D02DB003B25AA /* myTutor.m in Sources */,
 				A2D342451D0C8CA400F03DE8 /* AppDelegate.m in Sources */,
 				A25CA1761D0CE680003B25AA /* History.m in Sources */,
+				A2F507FE1D0DA93800F7DEA5 /* tutorList.m in Sources */,
+				A2F508031D0DAA8100F7DEA5 /* tutorDescription.m in Sources */,
 				A25CA1961D0D23D9003B25AA /* MyStudents.m in Sources */,
 				A2D342421D0C8CA400F03DE8 /* main.m in Sources */,
 			);

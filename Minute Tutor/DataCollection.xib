@@ -13,7 +13,10 @@
                 <outlet property="historyButton" destination="0ZJ-b6-tKx" id="um2-dV-5yd"/>
                 <outlet property="languageArtsButton" destination="gDi-7D-oto" id="FlR-vI-hHK"/>
                 <outlet property="mathematicsButton" destination="Ltn-kh-P5P" id="Zi9-BM-Sbo"/>
+                <outlet property="payPal" destination="NL6-d6-LhG" id="Tgc-Po-Urc"/>
+                <outlet property="rate" destination="ue1-dd-eji" id="kvm-7V-9Ba"/>
                 <outlet property="scienceButton" destination="lnE-za-xTY" id="0pf-df-bPB"/>
+                <outlet property="skype" destination="pJ5-gU-Cvn" id="sYT-Fu-w9l"/>
                 <outlet property="technologyButton" destination="LuI-rh-SWP" id="TVY-k1-EsG"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="worldLanguage" destination="Num-8U-Ldq" id="1Dg-Rp-pPJ"/>

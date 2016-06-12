@@ -25,8 +25,13 @@
     [super viewDidLoad];
     tableData = [NSArray arrayWithObjects:@"Integral Calculus", @"Integral Calculus", @"Integral Calculus", @"Integral Calculus", @"Integral Calculus", @"Integral Calculus", nil];
     
+    self.name.delegate = self;
+    self.rate.delegate = self;
 
-    // Do any additional setup after loading the view.
+}
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return NO;
 }
 
 -(void) viewWillAppear:(BOOL)animated {
@@ -234,5 +239,9 @@
     [self presentViewController:viewController animated:YES completion:nil];
 }
 - (IBAction)save:(id)sender {
+    FIRDatabaseReference *rootRef= [[FIRDatabase database] reference];
+    [[[rootRef child:@"0"] child:@"name"] setValue: name.text];
+    [[[rootRef child:@"0"] child:@"rate"] setValue: rate.text];
+
 }
 @end

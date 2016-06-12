@@ -41,6 +41,9 @@
                             <integer key="value" value="1"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="algebra:" destination="-1" eventType="touchUpInside" id="xq9-Uh-hcO"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YkY-pN-plX">
                     <rect key="frame" x="177" y="160" width="246" height="40"/>
@@ -54,6 +57,9 @@
                             <integer key="value" value="1"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="trigonometry:" destination="-1" eventType="touchUpInside" id="NdA-vo-dZA"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbd-rq-aEC">
                     <rect key="frame" x="177" y="230" width="246" height="40"/>
@@ -67,6 +73,9 @@
                             <integer key="value" value="1"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="calculus:" destination="-1" eventType="touchUpInside" id="dBf-TX-Y4h"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0y-ar-Arz">
                     <rect key="frame" x="177" y="370" width="246" height="40"/>
@@ -80,6 +89,9 @@
                             <integer key="value" value="1"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="geometry:" destination="-1" eventType="touchUpInside" id="BHS-tZ-gnR"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5T-lO-o22">
                     <rect key="frame" x="177" y="300" width="246" height="40"/>
@@ -93,6 +105,9 @@
                             <integer key="value" value="1"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="statistics:" destination="-1" eventType="touchUpInside" id="bHv-x8-gcR"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="0.99176901578903198" blue="0.92433607578277588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

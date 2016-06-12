@@ -18,4 +18,8 @@
 @property (strong, nonatomic) IBOutlet UIButton *scienceButton;
 @property (strong, nonatomic) IBOutlet UIButton *worldLanguage;
 
+@property (strong, nonatomic) IBOutlet UITextField *payPal;
+@property (strong, nonatomic) IBOutlet UITextField *skype;
+@property (strong, nonatomic) IBOutlet UITextField *rate;
+
 @end

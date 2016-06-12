@@ -7,6 +7,7 @@
 //
 
 #import "Mathematics.h"
+#import "tutorList.h"
 
 @interface Mathematics ()
 
@@ -28,4 +29,24 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (IBAction)algebra:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)trigonometry:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)calculus:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)statistics:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)geometry:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
 @end

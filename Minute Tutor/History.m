@@ -7,6 +7,7 @@
 //
 
 #import "History.h"
+#import "tutorList.h"
 
 @interface History ()
 
@@ -26,6 +27,27 @@
 
 - (IBAction)back:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)world:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)us:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)european:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)contemporary:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)economics:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 @end

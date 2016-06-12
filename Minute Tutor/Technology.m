@@ -7,6 +7,7 @@
 //
 
 #import "Technology.h"
+#import "tutorList.h"
 
 @interface Technology ()
 
@@ -26,6 +27,27 @@
 
 - (IBAction)back:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)web:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)java:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)networking:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)hardware:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)ai:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "Science.h"
+#import "tutorList.h"
 
 @interface Science ()
 
@@ -26,6 +27,27 @@
 
 - (IBAction)back:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)chemistry:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)biology:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)physics:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)environmental:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)astronomy:(id)sender {
+    tutorList *viewController = [[tutorList alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 @end

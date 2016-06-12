@@ -9,17 +9,29 @@
 #import "DataCollection.h"
 #import "SubSubjects.h"
 
+#import <Firebase/Firebase.h>
+@import Firebase;
+
 @interface DataCollection ()
 
 @end
 
 @implementation DataCollection
 
-@synthesize languageArtsButton, mathematicsButton, historyButton, technologyButton, scienceButton, worldLanguage;
+@synthesize languageArtsButton, mathematicsButton, historyButton, technologyButton, scienceButton, worldLanguage, payPal, skype, rate;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+- (void) viewWillAppear:(BOOL)animated {
+    FIRDatabaseReference *rootRef= [[FIRDatabase database] reference];
+    
+    [rootRef observeEventType:FIRDataEventTypeChildAdded withBlock:^(FIRDataSnapshot *snapshot) {
+        payPal.text = snapshot.value[@"payPal"];
+        skype.text = snapshot.value[@"skypeID"];
+        rate.text = snapshot.value[@"rate"];
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -92,6 +104,11 @@
 }
 
 - (IBAction)next:(id)sender {
+    FIRDatabaseReference *rootRef= [[FIRDatabase database] reference];
+    [[[rootRef child:@"0"] child:@"payPal"] setValue: payPal.text];
+    [[[rootRef child:@"0"] child:@"rate"] setValue: rate.text];
+    [[[rootRef child:@"0"] child:@"skypeID"] setValue: skype.text];
+    
     SubSubjects *viewController = [[SubSubjects alloc] init];
     [self presentViewController:viewController animated:YES completion:nil];
 }

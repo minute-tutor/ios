@@ -34,11 +34,13 @@
     appDelegate.tutor = -1;
     
     tableData = [NSArray arrayWithObjects:@"Egg Benedict", nil];
+    
 }
 - (void) viewWillAppear:(BOOL)animated {
     NSMutableArray *arr = [[NSMutableArray alloc] init];
     
     FIRDatabaseReference *rootRef= [[FIRDatabase database] reference];
+
     
     [rootRef observeEventType:FIRDataEventTypeChildAdded withBlock:^(FIRDataSnapshot *snapshot) {
         NSLog(@"hi %@", snapshot.value[@"name"]);
