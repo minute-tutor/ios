@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <Google/SignIn.h>
 
-@interface ViewController : UIViewController <GIDSignInUIDelegate> {
+@interface ViewController : UIViewController <GIDSignInUIDelegate, UITableViewDelegate, UITableViewDataSource> {
+    NSArray *tableData;
     
 }
 @property(weak, nonatomic) IBOutlet GIDSignInButton *signInButton;

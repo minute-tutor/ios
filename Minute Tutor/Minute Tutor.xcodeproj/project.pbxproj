@@ -32,6 +32,10 @@
 		A25CA1811D0CE6AF003B25AA /* Science.xib in Resources */ = {isa = PBXBuildFile; fileRef = A25CA17F1D0CE6AF003B25AA /* Science.xib */; };
 		A25CA1851D0CE6D7003B25AA /* WorldLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = A25CA1831D0CE6D7003B25AA /* WorldLanguage.m */; };
 		A25CA1861D0CE6D7003B25AA /* WorldLanguage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A25CA1841D0CE6D7003B25AA /* WorldLanguage.xib */; };
+		A25CA18C1D0CF791003B25AA /* full_star.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA18B1D0CF791003B25AA /* full_star.png */; };
+		A25CA18E1D0CF7E1003B25AA /* outline_star.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA18D1D0CF7E1003B25AA /* outline_star.png */; };
+		A25CA1921D0D02DB003B25AA /* myTutor.m in Sources */ = {isa = PBXBuildFile; fileRef = A25CA1901D0D02DB003B25AA /* myTutor.m */; };
+		A25CA1931D0D02DB003B25AA /* myTutor.xib in Resources */ = {isa = PBXBuildFile; fileRef = A25CA1911D0D02DB003B25AA /* myTutor.xib */; };
 		A2C1350A1D0C9ECD004045F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */; };
 		A2C135111D0CBC5E004045F1 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C1350F1D0CBC5E004045F1 /* HomePage.m */; };
 		A2C135121D0CBC5E004045F1 /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C135101D0CBC5E004045F1 /* HomePage.xib */; };
@@ -95,6 +99,11 @@
 		A25CA1821D0CE6D7003B25AA /* WorldLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldLanguage.h; sourceTree = "<group>"; };
 		A25CA1831D0CE6D7003B25AA /* WorldLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldLanguage.m; sourceTree = "<group>"; };
 		A25CA1841D0CE6D7003B25AA /* WorldLanguage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorldLanguage.xib; sourceTree = "<group>"; };
+		A25CA18B1D0CF791003B25AA /* full_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = full_star.png; sourceTree = "<group>"; };
+		A25CA18D1D0CF7E1003B25AA /* outline_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outline_star.png; sourceTree = "<group>"; };
+		A25CA18F1D0D02DB003B25AA /* myTutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTutor.h; sourceTree = "<group>"; };
+		A25CA1901D0D02DB003B25AA /* myTutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTutor.m; sourceTree = "<group>"; };
+		A25CA1911D0D02DB003B25AA /* myTutor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myTutor.xib; sourceTree = "<group>"; };
 		A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A2C1350E1D0CBC5E004045F1 /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
 		A2C1350F1D0CBC5E004045F1 /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
@@ -155,6 +164,9 @@
 		A2D342341D0C8CA400F03DE8 = {
 			isa = PBXGroup;
 			children = (
+				A25CA18F1D0D02DB003B25AA /* myTutor.h */,
+				A25CA1901D0D02DB003B25AA /* myTutor.m */,
+				A25CA1911D0D02DB003B25AA /* myTutor.xib */,
 				A25CA1821D0CE6D7003B25AA /* WorldLanguage.h */,
 				A25CA1831D0CE6D7003B25AA /* WorldLanguage.m */,
 				A25CA1841D0CE6D7003B25AA /* WorldLanguage.xib */,
@@ -216,6 +228,8 @@
 		A2D342401D0C8CA400F03DE8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A25CA18D1D0CF7E1003B25AA /* outline_star.png */,
+				A25CA18B1D0CF791003B25AA /* full_star.png */,
 				A2D342411D0C8CA400F03DE8 /* main.m */,
 				A25CA13D1D0CD36D003B25AA /* face.png */,
 				A25CA13E1D0CD36D003B25AA /* home2.png */,
@@ -387,9 +401,11 @@
 				A25CA1651D0CE1B1003B25AA /* history.png in Resources */,
 				A25CA1631D0CE1B1003B25AA /* chemistry.png in Resources */,
 				A2C135121D0CBC5E004045F1 /* HomePage.xib in Resources */,
+				A25CA18E1D0CF7E1003B25AA /* outline_star.png in Resources */,
 				A2D342531D0C8CA400F03DE8 /* LaunchScreen.storyboard in Resources */,
 				A25CA1721D0CE66C003B25AA /* Mathematics.xib in Resources */,
 				A25CA1671D0CE1B1003B25AA /* literature.png in Resources */,
+				A25CA1931D0D02DB003B25AA /* myTutor.xib in Resources */,
 				A25CA1401D0CD36D003B25AA /* home2.png in Resources */,
 				A25CA13F1D0CD36D003B25AA /* face.png in Resources */,
 				A2C1350A1D0C9ECD004045F1 /* GoogleService-Info.plist in Resources */,
@@ -399,6 +415,7 @@
 				A25CA1441D0CD76B003B25AA /* hat.png in Resources */,
 				A25CA17C1D0CE69E003B25AA /* Technology.xib in Resources */,
 				A25CA1771D0CE680003B25AA /* History.xib in Resources */,
+				A25CA18C1D0CF791003B25AA /* full_star.png in Resources */,
 				A25CA1681D0CE1B1003B25AA /* math.png in Resources */,
 				A25CA1661D0CE1B1003B25AA /* language.png in Resources */,
 				A25CA1431D0CD76B003B25AA /* book.png in Resources */,
@@ -559,6 +576,7 @@
 				A25CA17B1D0CE69E003B25AA /* Technology.m in Sources */,
 				A25CA1711D0CE66C003B25AA /* Mathematics.m in Sources */,
 				A25CA1801D0CE6AF003B25AA /* Science.m in Sources */,
+				A25CA1921D0D02DB003B25AA /* myTutor.m in Sources */,
 				A2D342451D0C8CA400F03DE8 /* AppDelegate.m in Sources */,
 				A25CA1761D0CE680003B25AA /* History.m in Sources */,
 				A2D342421D0C8CA400F03DE8 /* main.m in Sources */,

@@ -152,18 +152,142 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yto-8y-iBQ">
-                                <rect key="frame" x="229" y="110" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="My Tutors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqG-fE-ZHj">
+                                <rect key="frame" x="212" y="20" width="176" height="51"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="41"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dKT-ae-rnf">
+                                <rect key="frame" x="20" y="88" width="560" height="212"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="face.png" translatesAutoresizingMaskIntoConstraints="NO" id="pvE-L4-ZF3">
+                                        <rect key="frame" x="245" y="8" width="70" height="70"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4y0-UN-S38">
+                                        <rect key="frame" x="170" y="90" width="220" height="31"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U9s-dz-BI3">
+                                        <rect key="frame" x="80" y="129" width="400" height="1"/>
+                                        <color key="backgroundColor" red="0.76025527715682983" green="0.73935329914093018" blue="0.57278239727020264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="$0.16 / min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOy-1P-kNC">
+                                        <rect key="frame" x="34" y="138" width="146" height="57"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="26"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="full_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qu4-i0-ea0">
+                                        <rect key="frame" x="328" y="142" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="full_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="mMh-Sr-VOP">
+                                        <rect key="frame" x="386" y="142" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="outline_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Wf-d9-zrx">
+                                        <rect key="frame" x="444" y="142" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="outline_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="3w5-A2-mky">
+                                        <rect key="frame" x="502" y="142" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="full_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="nSF-Bh-CHQ">
+                                        <rect key="frame" x="270" y="142" width="50" height="50"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.9706999659538269" green="0.93636655807495117" blue="0.62859761714935303" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Qu4-i0-ea0" firstAttribute="top" secondItem="U9s-dz-BI3" secondAttribute="bottom" constant="12" id="0Bd-4Z-B26"/>
+                                    <constraint firstAttribute="trailing" secondItem="U9s-dz-BI3" secondAttribute="trailing" constant="80" id="32K-0y-EP5"/>
+                                    <constraint firstItem="4y0-UN-S38" firstAttribute="centerX" secondItem="dKT-ae-rnf" secondAttribute="centerX" id="3Fg-vq-fql"/>
+                                    <constraint firstItem="3w5-A2-mky" firstAttribute="top" secondItem="dKT-ae-rnf" secondAttribute="top" constant="142" id="8bC-QC-NGL"/>
+                                    <constraint firstItem="U9s-dz-BI3" firstAttribute="leading" secondItem="dKT-ae-rnf" secondAttribute="leading" constant="80" id="Ery-gn-FID"/>
+                                    <constraint firstItem="mMh-Sr-VOP" firstAttribute="top" secondItem="U9s-dz-BI3" secondAttribute="bottom" constant="12" id="FNS-zH-8fp"/>
+                                    <constraint firstItem="pvE-L4-ZF3" firstAttribute="centerX" secondItem="dKT-ae-rnf" secondAttribute="centerX" id="GGK-LZ-UAd"/>
+                                    <constraint firstItem="pvE-L4-ZF3" firstAttribute="top" secondItem="dKT-ae-rnf" secondAttribute="top" constant="8" id="KLo-dY-be7"/>
+                                    <constraint firstItem="4y0-UN-S38" firstAttribute="top" secondItem="pvE-L4-ZF3" secondAttribute="bottom" constant="12" id="LG1-YZ-G5q"/>
+                                    <constraint firstItem="U9s-dz-BI3" firstAttribute="top" secondItem="4y0-UN-S38" secondAttribute="bottom" constant="8" id="ROb-yr-zjJ"/>
+                                    <constraint firstItem="mMh-Sr-VOP" firstAttribute="centerX" secondItem="dKT-ae-rnf" secondAttribute="centerX" id="dph-WR-Sjb"/>
+                                    <constraint firstItem="3w5-A2-mky" firstAttribute="centerX" secondItem="dKT-ae-rnf" secondAttribute="centerX" constant="247" id="efF-4U-YE7"/>
+                                    <constraint firstItem="1Wf-d9-zrx" firstAttribute="centerX" secondItem="dKT-ae-rnf" secondAttribute="centerX" id="egD-Ds-pYs"/>
+                                    <constraint firstItem="nSF-Bh-CHQ" firstAttribute="top" secondItem="U9s-dz-BI3" secondAttribute="bottom" constant="12" id="kQb-5S-hVd"/>
+                                    <constraint firstItem="iOy-1P-kNC" firstAttribute="centerX" secondItem="dKT-ae-rnf" secondAttribute="centerX" id="lkv-jF-cAU"/>
+                                    <constraint firstItem="Qu4-i0-ea0" firstAttribute="centerX" secondItem="dKT-ae-rnf" secondAttribute="centerX" id="msp-uA-x3k"/>
+                                    <constraint firstItem="nSF-Bh-CHQ" firstAttribute="centerX" secondItem="dKT-ae-rnf" secondAttribute="centerX" id="qr8-82-MEg"/>
+                                    <constraint firstItem="1Wf-d9-zrx" firstAttribute="top" secondItem="U9s-dz-BI3" secondAttribute="bottom" constant="12" id="rbB-Y9-oya"/>
+                                    <constraint firstItem="iOy-1P-kNC" firstAttribute="top" secondItem="U9s-dz-BI3" secondAttribute="bottom" constant="8" id="zTF-AU-32T"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99176901578903198" blue="0.92433607578277588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dKT-ae-rnf" firstAttribute="top" secondItem="fqG-fE-ZHj" secondAttribute="bottom" constant="17" id="4IH-Cr-Mgj"/>
+                            <constraint firstItem="fqG-fE-ZHj" firstAttribute="centerX" secondItem="Pmg-4g-kjg" secondAttribute="centerX" id="Ibc-4u-qyL"/>
+                            <constraint firstItem="dKT-ae-rnf" firstAttribute="leading" secondItem="Pmg-4g-kjg" secondAttribute="leadingMargin" id="N8Y-ty-2fA"/>
+                            <constraint firstItem="dKT-ae-rnf" firstAttribute="centerX" secondItem="Pmg-4g-kjg" secondAttribute="centerX" id="T42-nd-JMi"/>
+                            <constraint firstItem="fqG-fE-ZHj" firstAttribute="top" secondItem="coD-DZ-a0Q" secondAttribute="bottom" id="dOY-ya-Q1n"/>
+                            <constraint firstItem="dKT-ae-rnf" firstAttribute="trailing" secondItem="Pmg-4g-kjg" secondAttribute="trailingMargin" id="e7Z-mj-5OF"/>
+                            <constraint firstItem="dKT-ae-rnf" firstAttribute="centerX" secondItem="Pmg-4g-kjg" secondAttribute="centerX" id="zCa-rw-XkQ"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="My Tutors" image="book.png" id="ar9-PJ-VoD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cET-OL-yIJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1760" y="362"/>
+        </scene>
+        <!--My Tutors-->
+        <scene sceneID="9IF-fU-8bH">
+            <objects>
+                <viewController id="fIR-71-r6a" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QkB-Lt-5g8"/>
+                        <viewControllerLayoutGuide type="bottom" id="rdi-eW-C3n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jhu-xN-PMp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Tutors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xld-3F-PtS">
+                                <rect key="frame" x="214" y="20" width="173" height="49"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="41"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="359" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8fa-dY-1Wc">
+                                <rect key="frame" x="35" y="77" width="531" height="467"/>
+                                <color key="backgroundColor" red="1" green="0.99176901578903198" blue="0.92433607578277588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="359" id="sSK-mH-HcP">
+                                        <rect key="frame" x="0.0" y="28" width="531" height="359"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sSK-mH-HcP" id="oFX-LB-33D">
+                                            <rect key="frame" x="0.0" y="0.0" width="531" height="358"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.99176901578903198" blue="0.92433607578277588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="fIR-71-r6a" id="a9L-6O-yIb"/>
+                                    <outlet property="delegate" destination="fIR-71-r6a" id="D2S-Wm-mea"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99176901578903198" blue="0.92433607578277588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xld-3F-PtS" firstAttribute="top" secondItem="QkB-Lt-5g8" secondAttribute="bottom" id="5xf-Xu-IWf"/>
+                            <constraint firstItem="rdi-eW-C3n" firstAttribute="top" secondItem="8fa-dY-1Wc" secondAttribute="bottom" constant="7" id="72b-G9-zne"/>
+                            <constraint firstItem="8fa-dY-1Wc" firstAttribute="leading" secondItem="Jhu-xN-PMp" secondAttribute="leading" constant="1" id="HuE-Eh-wut"/>
+                            <constraint firstItem="xld-3F-PtS" firstAttribute="centerX" secondItem="Jhu-xN-PMp" secondAttribute="centerX" id="L5E-bY-iR8"/>
+                            <constraint firstItem="8fa-dY-1Wc" firstAttribute="top" secondItem="xld-3F-PtS" secondAttribute="bottom" constant="8" id="PWb-eU-JjA"/>
+                            <constraint firstAttribute="trailing" secondItem="8fa-dY-1Wc" secondAttribute="trailing" constant="1" id="eB2-Et-TZH"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Tutors" image="book.png" id="IWv-CJ-B1E"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="blV-oF-Oi7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1037" y="140"/>
         </scene>
@@ -216,7 +340,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="Vt0-ci-Mma" kind="relationship" relationship="viewControllers" id="ti3-nA-wsK"/>
-                        <segue destination="cL4-S4-nEq" kind="relationship" relationship="viewControllers" id="kMJ-un-Uvq"/>
+                        <segue destination="fIR-71-r6a" kind="relationship" relationship="viewControllers" id="aAS-9D-TTA"/>
                         <segue destination="ZsQ-Eo-h0X" kind="relationship" relationship="viewControllers" id="WdP-sg-MZ3"/>
                         <segue destination="Fxl-Qa-QQq" kind="relationship" relationship="viewControllers" id="qC4-U4-cz3"/>
                     </connections>
@@ -231,11 +355,13 @@
         <image name="chemistry.png" width="50" height="50"/>
         <image name="computers.png" width="50" height="50"/>
         <image name="face.png" width="35" height="35"/>
+        <image name="full_star.png" width="50" height="50"/>
         <image name="hat.png" width="35" height="29"/>
         <image name="history.png" width="50" height="50"/>
         <image name="home2.png" width="35" height="35"/>
         <image name="language.png" width="50" height="50"/>
         <image name="literature.png" width="50" height="50"/>
         <image name="math.png" width="50" height="50"/>
+        <image name="outline_star.png" width="50" height="50"/>
     </resources>
 </document>
