@@ -7,6 +7,15 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="myTutor">
             <connections>
+                <outlet property="dateTime" destination="xP6-ms-g3i" id="8Pp-kb-hMx"/>
+                <outlet property="image" destination="jBq-Q5-2kR" id="zxz-eA-ln1"/>
+                <outlet property="name" destination="KVZ-UU-VwT" id="ewV-EL-Tvg"/>
+                <outlet property="rate" destination="b3Y-n5-Yu4" id="hmc-cv-jcR"/>
+                <outlet property="star1" destination="AQO-3Y-S2U" id="Do8-BS-5Jx"/>
+                <outlet property="star2" destination="7ua-95-hw3" id="TxC-AZ-WWW"/>
+                <outlet property="star3" destination="TG4-Ta-vFb" id="BLv-ah-m3X"/>
+                <outlet property="star4" destination="3Xn-9p-iai" id="rYb-FM-0kV"/>
+                <outlet property="star5" destination="TNt-lC-cXe" id="ovI-66-YQ4"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -46,7 +55,7 @@
                     <rect key="frame" x="22" y="200" width="50" height="50"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date:    Time: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xP6-ms-g3i">
-                    <rect key="frame" x="78" y="271" width="165" height="40"/>
+                    <rect key="frame" x="8" y="271" width="304" height="40"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>

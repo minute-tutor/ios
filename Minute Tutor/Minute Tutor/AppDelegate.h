@@ -21,6 +21,8 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
+@property (nonatomic) int tutor;
+
 
 @end
 

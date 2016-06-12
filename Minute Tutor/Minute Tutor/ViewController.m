@@ -15,6 +15,7 @@
 #import "Science.h"
 #import "WorldLanguage.h"
 #import "myTutor.h"
+#import "AppDelegate.h"
 
 #import <Firebase/Firebase.h>
 @import Firebase;
@@ -29,9 +30,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    tableData = [NSArray arrayWithObjects:@"Egg Benedict", @"Mushroom Risotto", @"Mushroom Risotto", @"Mushroom Risotto", @"Mushroom Risotto", nil];
-    NSMutableArray *arr = [[NSMutableArray alloc] init];
+    AppDelegate *appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
+    appDelegate.tutor = -1;
     
+    tableData = [NSArray arrayWithObjects:@"Egg Benedict", nil];
+}
+- (void) viewWillAppear:(BOOL)animated {
+    NSMutableArray *arr = [[NSMutableArray alloc] init];
     
     FIRDatabaseReference *rootRef= [[FIRDatabase database] reference];
     
@@ -42,11 +47,9 @@
             [arr addObject:@"x"];
         }
         tableData = arr;
-
-     }];
-
+        
+    }];
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -84,6 +87,8 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    AppDelegate *appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
+    
     static NSString *CellIdentifier = @"Cell";
 
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -113,6 +118,7 @@
     
     graphView.tag = 500;
     [cell.contentView addSubview:graphView];
+//    appDelegate.tutor++;
     return cell;
 }
 
