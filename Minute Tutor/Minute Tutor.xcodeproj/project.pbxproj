@@ -14,6 +14,12 @@
 		A25CA1401D0CD36D003B25AA /* home2.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA13E1D0CD36D003B25AA /* home2.png */; };
 		A25CA1431D0CD76B003B25AA /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA1411D0CD76B003B25AA /* book.png */; };
 		A25CA1441D0CD76B003B25AA /* hat.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA1421D0CD76B003B25AA /* hat.png */; };
+		A25CA1631D0CE1B1003B25AA /* chemistry.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA15D1D0CE1B1003B25AA /* chemistry.png */; };
+		A25CA1641D0CE1B1003B25AA /* computers.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA15E1D0CE1B1003B25AA /* computers.png */; };
+		A25CA1651D0CE1B1003B25AA /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA15F1D0CE1B1003B25AA /* history.png */; };
+		A25CA1661D0CE1B1003B25AA /* language.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA1601D0CE1B1003B25AA /* language.png */; };
+		A25CA1671D0CE1B1003B25AA /* literature.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA1611D0CE1B1003B25AA /* literature.png */; };
+		A25CA1681D0CE1B1003B25AA /* math.png in Resources */ = {isa = PBXBuildFile; fileRef = A25CA1621D0CE1B1003B25AA /* math.png */; };
 		A2C1350A1D0C9ECD004045F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */; };
 		A2C135111D0CBC5E004045F1 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C1350F1D0CBC5E004045F1 /* HomePage.m */; };
 		A2C135121D0CBC5E004045F1 /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C135101D0CBC5E004045F1 /* HomePage.xib */; };
@@ -53,6 +59,12 @@
 		A25CA13E1D0CD36D003B25AA /* home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home2.png; sourceTree = "<group>"; };
 		A25CA1411D0CD76B003B25AA /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
 		A25CA1421D0CD76B003B25AA /* hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hat.png; sourceTree = "<group>"; };
+		A25CA15D1D0CE1B1003B25AA /* chemistry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chemistry.png; sourceTree = "<group>"; };
+		A25CA15E1D0CE1B1003B25AA /* computers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = computers.png; sourceTree = "<group>"; };
+		A25CA15F1D0CE1B1003B25AA /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		A25CA1601D0CE1B1003B25AA /* language.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = language.png; sourceTree = "<group>"; };
+		A25CA1611D0CE1B1003B25AA /* literature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = literature.png; sourceTree = "<group>"; };
+		A25CA1621D0CE1B1003B25AA /* math.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math.png; sourceTree = "<group>"; };
 		A2C135091D0C9ECD004045F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A2C1350E1D0CBC5E004045F1 /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
 		A2C1350F1D0CBC5E004045F1 /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
@@ -161,6 +173,12 @@
 				A25CA13E1D0CD36D003B25AA /* home2.png */,
 				A25CA1411D0CD76B003B25AA /* book.png */,
 				A25CA1421D0CD76B003B25AA /* hat.png */,
+				A25CA15D1D0CE1B1003B25AA /* chemistry.png */,
+				A25CA15E1D0CE1B1003B25AA /* computers.png */,
+				A25CA15F1D0CE1B1003B25AA /* history.png */,
+				A25CA1601D0CE1B1003B25AA /* language.png */,
+				A25CA1611D0CE1B1003B25AA /* literature.png */,
+				A25CA1621D0CE1B1003B25AA /* math.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -317,13 +335,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25CA1651D0CE1B1003B25AA /* history.png in Resources */,
+				A25CA1631D0CE1B1003B25AA /* chemistry.png in Resources */,
 				A2C135121D0CBC5E004045F1 /* HomePage.xib in Resources */,
 				A2D342531D0C8CA400F03DE8 /* LaunchScreen.storyboard in Resources */,
+				A25CA1671D0CE1B1003B25AA /* literature.png in Resources */,
 				A25CA1401D0CD36D003B25AA /* home2.png in Resources */,
 				A25CA13F1D0CD36D003B25AA /* face.png in Resources */,
 				A2C1350A1D0C9ECD004045F1 /* GoogleService-Info.plist in Resources */,
+				A25CA1641D0CE1B1003B25AA /* computers.png in Resources */,
 				A2D342501D0C8CA400F03DE8 /* Assets.xcassets in Resources */,
 				A25CA1441D0CD76B003B25AA /* hat.png in Resources */,
+				A25CA1681D0CE1B1003B25AA /* math.png in Resources */,
+				A25CA1661D0CE1B1003B25AA /* language.png in Resources */,
 				A25CA1431D0CD76B003B25AA /* book.png in Resources */,
 				A2D3424B1D0C8CA400F03DE8 /* Main.storyboard in Resources */,
 			);

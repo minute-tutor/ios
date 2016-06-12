@@ -18,18 +18,102 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What do you need help with?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vzk-5C-YhI">
-                                <rect key="frame" x="73" y="20" width="455" height="170"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you need help with?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vzk-5C-YhI">
+                                <rect key="frame" x="73" y="20" width="455" height="42"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tA1-iW-h1m">
+                                <rect key="frame" x="73" y="92" width="50" height="50"/>
+                                <state key="normal" image="literature.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhg-HK-nYZ">
+                                <rect key="frame" x="478" y="92" width="50" height="50"/>
+                                <state key="normal" image="math.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASJ-yN-nIY">
+                                <rect key="frame" x="73" y="248" width="50" height="50"/>
+                                <state key="normal" image="history.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btf-Kc-FVs">
+                                <rect key="frame" x="478" y="248" width="50" height="50"/>
+                                <state key="normal" image="computers.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leQ-jp-WyM">
+                                <rect key="frame" x="73" y="425" width="50" height="50"/>
+                                <state key="normal" image="chemistry.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAN-ET-IRL">
+                                <rect key="frame" x="478" y="425" width="50" height="50"/>
+                                <state key="normal" image="language.png"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Language Arts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBw-f9-KUc">
+                                <rect key="frame" x="42" y="150" width="107" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mathematics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCR-P5-Cvi">
+                                <rect key="frame" x="459" y="150" width="94" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2BN-tl-wUg">
+                                <rect key="frame" x="71" y="306" width="52" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Technology" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7t-2I-bQ6">
+                                <rect key="frame" x="465" y="306" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Science" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdj-Lx-SlP">
+                                <rect key="frame" x="68" y="483" width="59" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="World Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="giB-cx-KzT">
+                                <rect key="frame" x="445" y="483" width="121" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99176901578903198" blue="0.92433607578277588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="leQ-jp-WyM" firstAttribute="top" secondItem="ASJ-yN-nIY" secondAttribute="bottom" constant="127" id="1zT-fM-dUP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IAN-ET-IRL" secondAttribute="trailing" constant="52" id="2t7-F2-HsS"/>
+                            <constraint firstItem="ASJ-yN-nIY" firstAttribute="top" secondItem="tA1-iW-h1m" secondAttribute="bottom" constant="106" id="3Pp-p6-Lb2"/>
+                            <constraint firstItem="o7t-2I-bQ6" firstAttribute="top" secondItem="btf-Kc-FVs" secondAttribute="bottom" constant="8" id="8ex-x7-EVH"/>
                             <constraint firstItem="Vzk-5C-YhI" firstAttribute="leading" secondItem="jLF-m4-bII" secondAttribute="leadingMargin" constant="53" id="8vK-Tz-Oqv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="giB-cx-KzT" secondAttribute="trailing" constant="14" id="9qF-aH-p5t"/>
+                            <constraint firstItem="yBw-f9-KUc" firstAttribute="top" secondItem="tA1-iW-h1m" secondAttribute="bottom" constant="8" id="Ail-h4-waD"/>
                             <constraint firstItem="Vzk-5C-YhI" firstAttribute="top" secondItem="8w8-ax-48G" secondAttribute="bottom" id="DVI-WA-SGb"/>
+                            <constraint firstItem="dhg-HK-nYZ" firstAttribute="top" secondItem="Vzk-5C-YhI" secondAttribute="bottom" constant="30" id="GPX-UH-eET"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uCR-P5-Cvi" secondAttribute="trailing" constant="27" id="Gly-Pf-IXy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="btf-Kc-FVs" secondAttribute="trailing" constant="52" id="IYJ-GH-lzb"/>
+                            <constraint firstItem="ASJ-yN-nIY" firstAttribute="leading" secondItem="jLF-m4-bII" secondAttribute="leadingMargin" constant="53" id="Knh-4y-mdB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Vzk-5C-YhI" secondAttribute="trailing" constant="52" id="Nw5-Xb-vnp"/>
+                            <constraint firstItem="tA1-iW-h1m" firstAttribute="leading" secondItem="jLF-m4-bII" secondAttribute="leadingMargin" constant="53" id="ONB-sp-441"/>
+                            <constraint firstItem="btf-Kc-FVs" firstAttribute="top" secondItem="dhg-HK-nYZ" secondAttribute="bottom" constant="106" id="RB5-Zb-mMG"/>
+                            <constraint firstItem="Gdj-Lx-SlP" firstAttribute="top" secondItem="leQ-jp-WyM" secondAttribute="bottom" constant="8" id="Ur3-qF-AWy"/>
+                            <constraint firstItem="2BN-tl-wUg" firstAttribute="leading" secondItem="jLF-m4-bII" secondAttribute="leadingMargin" constant="51" id="UwD-HS-e7L"/>
+                            <constraint firstItem="uCR-P5-Cvi" firstAttribute="top" secondItem="dhg-HK-nYZ" secondAttribute="bottom" constant="8" id="XA5-dH-cZJ"/>
+                            <constraint firstItem="Gdj-Lx-SlP" firstAttribute="leading" secondItem="jLF-m4-bII" secondAttribute="leadingMargin" constant="48" id="XXd-DM-FYf"/>
+                            <constraint firstItem="leQ-jp-WyM" firstAttribute="leading" secondItem="jLF-m4-bII" secondAttribute="leadingMargin" constant="53" id="brk-uk-OM4"/>
+                            <constraint firstItem="giB-cx-KzT" firstAttribute="top" secondItem="IAN-ET-IRL" secondAttribute="bottom" constant="8" id="c7M-ZJ-qby"/>
+                            <constraint firstItem="yBw-f9-KUc" firstAttribute="leading" secondItem="jLF-m4-bII" secondAttribute="leadingMargin" constant="22" id="dns-Tc-vHD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="o7t-2I-bQ6" secondAttribute="trailing" constant="32" id="ijZ-pv-R4O"/>
+                            <constraint firstItem="2BN-tl-wUg" firstAttribute="top" secondItem="ASJ-yN-nIY" secondAttribute="bottom" constant="8" id="kqI-Lb-rQG"/>
+                            <constraint firstItem="tA1-iW-h1m" firstAttribute="top" secondItem="Vzk-5C-YhI" secondAttribute="bottom" constant="30" id="pAO-ES-Zwq"/>
+                            <constraint firstItem="IAN-ET-IRL" firstAttribute="top" secondItem="btf-Kc-FVs" secondAttribute="bottom" constant="127" id="xhV-Kd-YaY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dhg-HK-nYZ" secondAttribute="trailing" constant="52" id="y8I-Yd-z8Y"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="home2.png" id="lgG-t8-h97"/>
@@ -126,8 +210,14 @@
     </scenes>
     <resources>
         <image name="book.png" width="35" height="35"/>
+        <image name="chemistry.png" width="50" height="50"/>
+        <image name="computers.png" width="50" height="50"/>
         <image name="face.png" width="35" height="35"/>
         <image name="hat.png" width="35" height="29"/>
+        <image name="history.png" width="50" height="50"/>
         <image name="home2.png" width="35" height="35"/>
+        <image name="language.png" width="50" height="50"/>
+        <image name="literature.png" width="50" height="50"/>
+        <image name="math.png" width="50" height="50"/>
     </resources>
 </document>
